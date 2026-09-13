@@ -1,0 +1,32 @@
+{
+ "63888f8244a48ed606626afd19dfe18e41335e9a7d5a4aab05c564b551aee543": {
+  "amount": 704.05,
+  "confidence": 1.0,
+  "currency": "INR",
+  "image_id": "image_05"
+ },
+ "a4fd5eb47799a25633a998e9a5dde0f74f216791e13bab7d6e07010d1236f9a7": {
+  "amount": 2854.0,
+  "confidence": 0.99,
+  "currency": "INR",
+  "image_id": "image_04"
+ },
+ "ad3dc0c21e47d0de3c63973156dcdad04c8619ed45fbf49105442c121bf0318d": {
+  "amount": 200000,
+  "confidence": 0.98,
+  "currency": "INR",
+  "image_id": "image_02"
+ },
+ "b66b8dd45a769f3b574162c17a5f6843887bd99f19b2882b7aeeb9a2c56cdccc": {
+  "amount": 41272.0,
+  "confidence": 0.99,
+  "currency": "INR",
+  "image_id": "image_03"
+ },
+ "fdd5acb8ca9f5a843a1486f6a14c958c0b7bcb341a098a7edd76652fcb5e7c22": {
+  "amount": 4365000,
+  "confidence": 1.0,
+  "currency": "IDR",
+  "image_id": "image_01"
+ }
+}

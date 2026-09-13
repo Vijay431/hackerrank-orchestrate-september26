@@ -1,4 +1,34 @@
 {
+ "1ae98db64c6d253f5e6e8a0458b36a59c12003ef33dac9566261d04b499d211d": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_13",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "20192ff71d2d14f5d043b261ab18d4594f138bc785b890d9e78ed8d3c96d92e0": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_14",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_1785"
+ },
+ "22747d9896b0bce5b9245c74f862e681b6ac06578744c8302433303318b3d254": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": "2024-09-23",
+  "kind": "salary_date_change",
+  "message_id": "message_05",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
  "3c4d7c4451387bb988a022f779e482942a046bbfd41d2e0dec3915cd4b3d95a4": {
   "confidence": 0.96,
   "currency": null,
@@ -6,6 +36,66 @@
   "kind": "no_op",
   "message_id": "message_02",
   "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "446ac6980267cb8f0d72736e457dc9a4e825acbf33599261b049f5e49f7a53fe": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_04",
+  "new_amount": 1037.52,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "50fa2ac8738aeb0cfe1243d8045e69a30464de016da081038184f04a9974a0ca": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_16",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "5883e157261b64b6df7eee96c5f83aec7500a5ac150b2dc55e040f9db92cda9e": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_07",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "628f3c0726962c51cb29ac934c1ee16cda8d411cc7aa4998775a60f44e1b33c4": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_12",
+  "new_amount": null,
+  "pct_change": 12,
+  "related_event_id": null
+ },
+ "7268b89801bec5894c0cb4765f6c75a42ee95b19225efa16d570a1cc03bb13b9": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_09",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "77cb6b7c0095b55c6e1a8520b1aeed04269d6ab1f1494e6fe985749c8f7db63d": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": "2026-01-15",
+  "kind": "salary_change",
+  "message_id": "message_11",
+  "new_amount": 1661,
   "pct_change": null,
   "related_event_id": null
  },
@@ -18,6 +108,36 @@
   "new_amount": null,
   "pct_change": null,
   "related_event_id": null
+ },
+ "99e8a5299be83dd430999a31fbf9b9174c0c8940450e9467c41745502bf10e53": {
+  "confidence": 0.98,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_08",
+  "new_amount": 38760000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "a56feb8f4dac9b234fed22cb0e41e0a09cd89fb039834d4756936d637b749127": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_06",
+  "new_amount": 1422.85,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "ad6955f532432bba472c5d6cc224e189c6188ca24e3df44c304dd24313eeac92": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_15",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_1960"
  },
  "b38f6646c44cbf7c17c11259e8e3b8c6c00b315f1829ae8f69eb58c82e43f30a": {
   "confidence": 0.94,
@@ -38,6 +158,16 @@
   "new_amount": null,
   "pct_change": null,
   "related_event_id": null
+ },
+ "bb2895196336398867e864fbbdc5ba3c9b2e2759caff2083ccdce34df81e7e56": {
+  "confidence": 0.95,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_17",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_2165"
  },
  "cfc0ee47b4d62b69780b5f2755f4ed5a3b82c3dfd63d3677176968d2df7a4d11": {
   "confidence": 0.99,
