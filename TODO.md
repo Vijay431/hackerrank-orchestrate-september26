@@ -37,10 +37,10 @@ message/image extraction. Full reasoning in the approved plan.
 - [x] Lazy extraction: pull only what the current run set needs
 
 ## Decision engine (deterministic — all scored fields)
-- [ ] Recurrence detection from settled history; conservative variable-spend forecast
-- [ ] 90-day balance simulation; correct handling of pending/scheduled/failed/cancelled/unrealized
-- [ ] Apply message amendments (salary change/date shift/end, rent increase, dispute)
-- [ ] `amount_safe_to_pay` and `earliest_date_for_full_payment`, both before spending changes
+- [x] Recurrence detection from settled history; conservative variable-spend forecast
+- [x] 90-day balance simulation; correct handling of pending/scheduled/failed/cancelled/unrealized
+- [x] Apply message amendments (salary change/date shift/end, rent increase, dispute)
+- [x] `amount_safe_to_pay` and `earliest_date_for_full_payment`, both before spending changes
 - [ ] Plan enumeration: full / wait / each installment option / partial / with <=3 spending changes
 - [ ] Filter by `payment_methods_user_will_consider` and `max_installment_months`
 - [ ] 6-level tie-break ranking per problem_statement.md
