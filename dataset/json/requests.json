@@ -1,0 +1,2502 @@
+[
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-07",
+    "request_date": "2025-08-03",
+    "request_id": "request_26",
+    "request_text": "I've been asked to transfer IDR 15,656,000 to my family. I need to complete it by 7 October 2025. Should I send the full amount, send part of it, or wait?",
+    "request_type": "family_transfer",
+    "requested_amount": 15656000.0,
+    "user_id": "user_26"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-08-21",
+    "request_date": "2026-07-05",
+    "request_id": "request_27",
+    "request_text": "Can I make this purchase without dipping into the balance I want to keep? I need to decide by 21 August 2026. The laptop costs ZAR 6,670.",
+    "request_type": "purchase",
+    "requested_amount": 6670.0,
+    "user_id": "user_27"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-08-15",
+    "request_date": "2024-06-07",
+    "request_id": "request_28",
+    "request_text": "I'm planning an investment contribution of EUR 1,302.40. What portion can I invest today without going below my minimum balance?",
+    "request_type": "investment",
+    "requested_amount": 1302.4,
+    "user_id": "user_28"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-11-23",
+    "request_date": "2025-11-04",
+    "request_id": "request_29",
+    "request_text": "Would investing this amount leave my upcoming bills covered? I have an opportunity to invest ZAR 51,524.",
+    "request_type": "investment",
+    "requested_amount": 51524.0,
+    "user_id": "user_29"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-06",
+    "request_date": "2026-04-06",
+    "request_id": "request_30",
+    "request_text": "The additional loan payment would be USD 775.20. I need to complete it by 6 June 2026. Can I clear this additional amount without putting upcoming bills at risk?",
+    "request_type": "debt_repayment",
+    "requested_amount": 775.2,
+    "user_id": "user_30"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-03",
+    "request_id": "request_31",
+    "request_text": "Would paying for the laptop today leave enough for my regular expenses? I need to decide by 15 November 2024. The price of the laptop is IDR 18,164,000.",
+    "request_type": "purchase",
+    "requested_amount": 18164000.0,
+    "user_id": "user_31"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-15",
+    "request_date": "2025-02-05",
+    "request_id": "request_32",
+    "request_text": "I'm planning a family trip that costs ZAR 40,018. Can I afford the full trip without putting upcoming bills at risk?",
+    "request_type": "travel",
+    "requested_amount": 40018.0,
+    "user_id": "user_32"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-15",
+    "request_date": "2026-01-07",
+    "request_id": "request_33",
+    "request_text": "Would paying the full deposit leave enough for my other commitments? The move requires a INR 118,000 deposit.",
+    "request_type": "housing",
+    "requested_amount": 118000.0,
+    "user_id": "user_33"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-01-28",
+    "request_date": "2024-12-04",
+    "request_id": "request_34",
+    "request_text": "I can book the family trip for INR 129,400. I need to complete it by 28 January 2025. How much can I safely put toward the booking today?",
+    "request_type": "travel",
+    "requested_amount": 129400.0,
+    "user_id": "user_34"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-15",
+    "request_date": "2025-10-30",
+    "request_id": "request_35",
+    "request_text": "Would it be safer to book the trip now or wait until more money comes in? I need to decide by 15 January 2026. I've found a travel option for INR 212,000.",
+    "request_type": "travel",
+    "requested_amount": 212000.0,
+    "user_id": "user_35"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-09-15",
+    "request_date": "2026-07-03",
+    "request_id": "request_36",
+    "request_text": "I'm considering a professional course priced at USD 3,954. Is it safe to cover the full course fee by the deadline?",
+    "request_type": "education",
+    "requested_amount": 3954.0,
+    "user_id": "user_36"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-15",
+    "request_date": "2024-03-05",
+    "request_id": "request_37",
+    "request_text": "Can I make the full transfer without falling short on my own bills? I'm planning to send my family IDR 14,649,000.",
+    "request_type": "family_transfer",
+    "requested_amount": 14649000.0,
+    "user_id": "user_37"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-15",
+    "request_date": "2025-08-07",
+    "request_id": "request_38",
+    "request_text": "The latest estimate for the repair is EUR 971.30. I need to complete it by 15 October 2025. Can I cover the full repair now and still manage my essential expenses?",
+    "request_type": "emergency_expense",
+    "requested_amount": 971.3,
+    "user_id": "user_38"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-15",
+    "request_date": "2026-04-04",
+    "request_id": "request_39",
+    "request_text": "Can I cover this deposit without putting rent and regular bills at risk? I need to decide by 15 June 2026. I need INR 208,600 for the rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 208600.0,
+    "user_id": "user_39"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-08-15",
+    "request_date": "2024-06-06",
+    "request_id": "request_40",
+    "request_text": "The professional course costs EUR 1,290.30. How much of the course fee can I manage without cutting into essentials?",
+    "request_type": "education",
+    "requested_amount": 1290.3,
+    "user_id": "user_40"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-15",
+    "request_date": "2025-11-03",
+    "request_id": "request_41",
+    "request_text": "The repair cannot wait. How much can I safely pay today? The repair bill comes to IDR 38,760,000.",
+    "request_type": "emergency_expense",
+    "requested_amount": 38760000.0,
+    "user_id": "user_41"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-15",
+    "request_date": "2026-01-05",
+    "request_id": "request_42",
+    "request_text": "I need to cover an urgent repair of INR 52,100. I need to complete it by 15 March 2026. What is the most I can put toward this repair right now?",
+    "request_type": "emergency_expense",
+    "requested_amount": 52100.0,
+    "user_id": "user_42"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-07",
+    "request_id": "request_43",
+    "request_text": "Laptop yang saya incar harganya IDR 43.339.000. Saya harus memutuskan sebelum 15 November 2024. Apakah saya bisa membelinya sekarang, atau sebaiknya menunggu?",
+    "request_type": "purchase",
+    "requested_amount": 43339000.0,
+    "user_id": "user_43"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-15",
+    "request_date": "2025-02-04",
+    "request_id": "request_44",
+    "request_text": "I need INR 95,800 for the course fee. Would paying the course fee now leave enough for my regular commitments?",
+    "request_type": "education",
+    "requested_amount": 95800.0,
+    "user_id": "user_44"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-09-15",
+    "request_date": "2026-07-06",
+    "request_id": "request_45",
+    "request_text": "How much of the laptop price can I safely cover today? The price of the laptop is IDR 21,983,000.",
+    "request_type": "purchase",
+    "requested_amount": 21983000.0,
+    "user_id": "user_45"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-01-09",
+    "request_date": "2024-12-03",
+    "request_id": "request_46",
+    "request_text": "I would like to repay an additional INR 49,450. I need to complete it by 9 January 2025. Is the full extra repayment safe, or should I pay a smaller amount?",
+    "request_type": "debt_repayment",
+    "requested_amount": 49450.0,
+    "user_id": "user_46"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-06-19",
+    "request_date": "2025-05-05",
+    "request_id": "request_47",
+    "request_text": "What is the most I can put toward this repair right now? I need to decide by 19 June 2025. I've received a repair quote for IDR 38,114,000.",
+    "request_type": "emergency_expense",
+    "requested_amount": 38114000.0,
+    "user_id": "user_47"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-08-24",
+    "request_date": "2026-07-25",
+    "request_id": "request_48",
+    "request_text": "I want to send INR 45,700 to my family. Can I complete this family transfer and still keep my minimum balance?",
+    "request_type": "family_transfer",
+    "requested_amount": 45700.0,
+    "user_id": "user_48"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-22",
+    "request_date": "2024-03-04",
+    "request_id": "request_49",
+    "request_text": "How much can I safely put toward the booking today? I've found a travel option for IDR 34,333,000.",
+    "request_type": "travel",
+    "requested_amount": 34333000.0,
+    "user_id": "user_49"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-08-21",
+    "request_date": "2025-08-06",
+    "request_id": "request_50",
+    "request_text": "The family trip will cost INR 43,900. I need to complete it by 21 August 2025. Would it be safer to book the trip now or wait until more money comes in?",
+    "request_type": "travel",
+    "requested_amount": 43900.0,
+    "user_id": "user_50"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-02-28",
+    "request_date": "2026-01-03",
+    "request_id": "request_51",
+    "request_text": "Is it safer to invest now, invest a smaller amount, or wait? I need to decide by 28 February 2026. The amount I would like to invest is IDR 2,191,000.",
+    "request_type": "investment",
+    "requested_amount": 2191000.0,
+    "user_id": "user_51"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-07-09",
+    "request_date": "2024-06-05",
+    "request_id": "request_52",
+    "request_text": "The latest estimate for the repair is INR 28,870. What is the most I can put toward this repair right now?",
+    "request_type": "emergency_expense",
+    "requested_amount": 28870.0,
+    "user_id": "user_52"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-20",
+    "request_date": "2025-11-07",
+    "request_id": "request_53",
+    "request_text": "Is the laptop affordable right now, or should I wait? The laptop comes to USD 1,699.20.",
+    "request_type": "purchase",
+    "requested_amount": 1699.2,
+    "user_id": "user_53"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-08-21",
+    "request_date": "2026-07-04",
+    "request_id": "request_54",
+    "request_text": "The move requires a ZAR 121,528 deposit. I need to complete it by 21 August 2026. Can I cover this deposit without putting rent and regular bills at risk?",
+    "request_type": "housing",
+    "requested_amount": 121528.0,
+    "user_id": "user_54"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-08-22",
+    "request_date": "2026-06-08",
+    "request_id": "request_55",
+    "request_text": "How much can I safely send to my family today? I need to decide by 22 August 2026. I want to send INR 218,600 to my family.",
+    "request_type": "family_transfer",
+    "requested_amount": 218600.0,
+    "user_id": "user_55"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-03-13",
+    "request_date": "2025-02-03",
+    "request_id": "request_56",
+    "request_text": "I've found a laptop for USD 881.56. Would paying for the laptop today leave enough for my regular expenses?",
+    "request_type": "purchase",
+    "requested_amount": 881.56,
+    "user_id": "user_56"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-15",
+    "request_date": "2026-04-05",
+    "request_id": "request_57",
+    "request_text": "Can I pay for the course before enrolment closes? I'm considering a professional course priced at ZAR 61,446.",
+    "request_type": "education",
+    "requested_amount": 61446.0,
+    "user_id": "user_57"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-01-25",
+    "request_date": "2024-12-07",
+    "request_id": "request_58",
+    "request_text": "The additional loan payment would be IDR 16,226,000. I need to complete it by 25 January 2025. How much extra can I put toward the loan today?",
+    "request_type": "debt_repayment",
+    "requested_amount": 16226000.0,
+    "user_id": "user_58"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-02",
+    "request_date": "2025-05-04",
+    "request_id": "request_59",
+    "request_text": "Would investing this amount leave my upcoming bills covered? I need to decide by 2 July 2025. I'm considering setting aside INR 140,600 for an investment.",
+    "request_type": "investment",
+    "requested_amount": 140600.0,
+    "user_id": "user_59"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-03-04",
+    "request_date": "2026-01-06",
+    "request_id": "request_60",
+    "request_text": "I need USD 199.89 for the rental deposit. Is the deposit affordable now, or do I need more time?",
+    "request_type": "housing",
+    "requested_amount": 199.89,
+    "user_id": "user_60"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-24",
+    "request_date": "2024-03-03",
+    "request_id": "request_61",
+    "request_text": "Would paying for the laptop today leave enough for my regular expenses? I've been quoted ZAR 29,062 for the laptop.",
+    "request_type": "purchase",
+    "requested_amount": 29062.0,
+    "user_id": "user_61"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-10-09",
+    "request_date": "2025-08-05",
+    "request_id": "request_62",
+    "request_text": "I have USD 404.23 in mind as an extra loan payment. I need to complete it by 9 October 2025. Can I make the extra loan payment now without affecting essential expenses?",
+    "request_type": "debt_repayment",
+    "requested_amount": 404.23,
+    "user_id": "user_62"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-09-17",
+    "request_date": "2026-07-07",
+    "request_id": "request_63",
+    "request_text": "Is the laptop affordable right now, or should I wait? I need to decide by 17 September 2026. I've found a laptop for INR 343,900.",
+    "request_type": "purchase",
+    "requested_amount": 343900.0,
+    "user_id": "user_63"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-08-16",
+    "request_date": "2024-06-04",
+    "request_id": "request_64",
+    "request_text": "I've been offered the annual membership for INR 63,700. Is the full membership fee affordable today, or should I wait?",
+    "request_type": "other",
+    "requested_amount": 63700.0,
+    "user_id": "user_64"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-11-25",
+    "request_date": "2025-11-06",
+    "request_id": "request_65",
+    "request_text": "Can I pay for the annual membership now without affecting my regular expenses? The annual membership costs ZAR 54,340.",
+    "request_type": "other",
+    "requested_amount": 54340.0,
+    "user_id": "user_65"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-04-17",
+    "request_date": "2026-04-03",
+    "request_id": "request_66",
+    "request_text": "The latest estimate for the repair is INR 22,200. I need to complete it by 17 April 2026. The repair cannot wait. How much can I safely pay today?",
+    "request_type": "emergency_expense",
+    "requested_amount": 22200.0,
+    "user_id": "user_66"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-05",
+    "request_id": "request_67",
+    "request_text": "What is the most I can put toward this repair right now? I need to decide by 15 November 2024. The urgent repair will cost USD 2,094.",
+    "request_type": "emergency_expense",
+    "requested_amount": 2094.0,
+    "user_id": "user_67"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-16",
+    "request_date": "2025-02-07",
+    "request_id": "request_68",
+    "request_text": "The extra repayment I'm considering is USD 2,091.60. How much extra can I put toward the loan today?",
+    "request_type": "debt_repayment",
+    "requested_amount": 2091.6,
+    "user_id": "user_68"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-14",
+    "request_date": "2026-01-04",
+    "request_id": "request_69",
+    "request_text": "Would investing this amount leave my upcoming bills covered? I want to put EUR 529.10 into an investment.",
+    "request_type": "investment",
+    "requested_amount": 529.1,
+    "user_id": "user_69"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-15",
+    "request_date": "2024-12-06",
+    "request_id": "request_70",
+    "request_text": "The full-year membership is INR 243,900. I need to complete it by 15 February 2025. Can I pay for the annual membership now without affecting my regular expenses?",
+    "request_type": "other",
+    "requested_amount": 243900.0,
+    "user_id": "user_70"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-05-28",
+    "request_date": "2025-05-03",
+    "request_id": "request_71",
+    "request_text": "Can I pay the rental deposit by the requested date? I need to decide by 28 May 2025. I need to pay a IDR 21,451,000 rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 21451000.0,
+    "user_id": "user_71"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-07-14",
+    "request_date": "2026-07-05",
+    "request_id": "request_72",
+    "request_text": "I'm planning to send my family ZAR 11,330. Can I make the full transfer without falling short on my own bills?",
+    "request_type": "family_transfer",
+    "requested_amount": 11330.0,
+    "user_id": "user_72"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2023-02-13",
+    "request_date": "2023-01-20",
+    "request_id": "request_73",
+    "request_text": "Can I cover the full repair now and still manage my essential expenses? The latest estimate for the repair is INR 71,400.",
+    "request_type": "emergency_expense",
+    "requested_amount": 71400.0,
+    "user_id": "user_73"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-10-21",
+    "request_date": "2025-08-04",
+    "request_id": "request_74",
+    "request_text": "I would like to repay an additional ZAR 5,010. I need to complete it by 21 October 2025. Would paying this much toward the loan leave enough for the rest of the month?",
+    "request_type": "debt_repayment",
+    "requested_amount": 5010.0,
+    "user_id": "user_74"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-12",
+    "request_date": "2026-04-06",
+    "request_id": "request_75",
+    "request_text": "Should I pay for the repair in full, split the payment, or wait? I need to decide by 12 June 2026. I've received a repair quote for ZAR 28,270.",
+    "request_type": "emergency_expense",
+    "requested_amount": 28270.0,
+    "user_id": "user_75"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-07-30",
+    "request_date": "2024-06-03",
+    "request_id": "request_76",
+    "request_text": "Renewing the membership would cost USD 4,455.60. How much can I safely pay toward the membership now?",
+    "request_type": "other",
+    "requested_amount": 4455.6,
+    "user_id": "user_76"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-11-14",
+    "request_date": "2025-11-05",
+    "request_id": "request_77",
+    "request_text": "How much of the rental deposit can I safely pay today? The rental deposit is INR 60,700.",
+    "request_type": "housing",
+    "requested_amount": 60700.0,
+    "user_id": "user_77"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-14",
+    "request_date": "2025-10-02",
+    "request_id": "request_78",
+    "request_text": "The laptop I'm looking at is INR 50,200. I need to complete it by 14 October 2025. Is the laptop affordable right now, or should I wait?",
+    "request_type": "purchase",
+    "requested_amount": 50200.0,
+    "user_id": "user_78"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-11-01",
+    "request_date": "2024-09-04",
+    "request_id": "request_79",
+    "request_text": "Can I buy the laptop now without making next month's bills tight? I need to decide by 1 November 2024. I'm considering a EUR 2,151.60 laptop.",
+    "request_type": "purchase",
+    "requested_amount": 2151.6,
+    "user_id": "user_79"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-21",
+    "request_date": "2025-02-06",
+    "request_id": "request_80",
+    "request_text": "I'm considering paying an extra INR 217,500 off the loan. Can I clear this additional amount without putting upcoming bills at risk?",
+    "request_type": "debt_repayment",
+    "requested_amount": 217500.0,
+    "user_id": "user_80"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-07-14",
+    "request_date": "2026-07-03",
+    "request_id": "request_81",
+    "request_text": "Does paying for the trip now leave enough for the rest of the month? I'm planning a family trip that costs USD 2,076.",
+    "request_type": "travel",
+    "requested_amount": 2076.0,
+    "user_id": "user_81"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-15",
+    "request_date": "2024-12-05",
+    "request_id": "request_82",
+    "request_text": "I've been asked to transfer USD 1,405.20 to my family. I need to complete it by 15 February 2025. Can I make the full transfer without falling short on my own bills?",
+    "request_type": "family_transfer",
+    "requested_amount": 1405.2,
+    "user_id": "user_82"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-06-17",
+    "request_date": "2025-05-07",
+    "request_id": "request_83",
+    "request_text": "Can I complete this family transfer and still keep my minimum balance? I need to decide by 17 June 2025. I want to send INR 156,200 to my family.",
+    "request_type": "family_transfer",
+    "requested_amount": 156200.0,
+    "user_id": "user_83"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-15",
+    "request_date": "2026-04-04",
+    "request_id": "request_84",
+    "request_text": "Enrolment for the course comes to INR 95,400. Would paying the course fee now leave enough for my regular commitments?",
+    "request_type": "education",
+    "requested_amount": 95400.0,
+    "user_id": "user_84"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-04-26",
+    "request_date": "2024-03-06",
+    "request_id": "request_85",
+    "request_text": "Is the deposit affordable now, or do I need more time? I need to pay a IDR 19,304,000 rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 19304000.0,
+    "user_id": "user_85"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-08-22",
+    "request_date": "2025-08-03",
+    "request_id": "request_86",
+    "request_text": "The current quote for the trip is INR 46,300. I need to complete it by 22 August 2025. Does paying for the trip now leave enough for the rest of the month?",
+    "request_type": "travel",
+    "requested_amount": 46300.0,
+    "user_id": "user_86"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-15",
+    "request_date": "2026-01-05",
+    "request_id": "request_87",
+    "request_text": "Would committing to the membership leave enough for my upcoming bills? I need to decide by 15 March 2026. The membership fee is INR 487,900 for the year.",
+    "request_type": "other",
+    "requested_amount": 487900.0,
+    "user_id": "user_87"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-08-25",
+    "request_date": "2024-06-07",
+    "request_id": "request_88",
+    "request_text": "I need ZAR 26,092 for the rental deposit. Would paying the full deposit leave enough for my other commitments?",
+    "request_type": "housing",
+    "requested_amount": 26092.0,
+    "user_id": "user_88"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-15",
+    "request_date": "2025-11-04",
+    "request_id": "request_89",
+    "request_text": "Is the full membership fee affordable today, or should I wait? I'm considering a yearly membership for IDR 13,756,000.",
+    "request_type": "other",
+    "requested_amount": 13756000.0,
+    "user_id": "user_89"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-09-23",
+    "request_date": "2026-07-06",
+    "request_id": "request_90",
+    "request_text": "I have ZAR 2,560 in mind as an extra loan payment. I need to complete it by 23 September 2026. Can I clear this additional amount without putting upcoming bills at risk?",
+    "request_type": "debt_repayment",
+    "requested_amount": 2560.0,
+    "user_id": "user_90"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-03",
+    "request_id": "request_91",
+    "request_text": "The repair cannot wait. How much can I safely pay today? I need to decide by 15 November 2024. I need to cover an urgent repair of EUR 1,927.20.",
+    "request_type": "emergency_expense",
+    "requested_amount": 1927.2,
+    "user_id": "user_91"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-14",
+    "request_date": "2025-02-05",
+    "request_id": "request_92",
+    "request_text": "I'm considering a professional course priced at ZAR 34,034. Can I pay for the course before enrolment closes?",
+    "request_type": "education",
+    "requested_amount": 34034.0,
+    "user_id": "user_92"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-04-14",
+    "request_date": "2026-04-07",
+    "request_id": "request_93",
+    "request_text": "Can I book the family trip now and still cover my usual expenses? The current quote for the trip is USD 1,729.20.",
+    "request_type": "travel",
+    "requested_amount": 1729.2,
+    "user_id": "user_93"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-12-22",
+    "request_date": "2024-12-04",
+    "request_id": "request_94",
+    "request_text": "The deposit on the place comes to EUR 572. I need to complete it by 22 December 2024. Can I cover this deposit without putting rent and regular bills at risk?",
+    "request_type": "housing",
+    "requested_amount": 572.0,
+    "user_id": "user_94"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-14",
+    "request_date": "2025-05-06",
+    "request_id": "request_95",
+    "request_text": "How much of the course fee can I manage without cutting into essentials? I need to decide by 14 July 2025. I've been quoted INR 553,000 for the course.",
+    "request_type": "education",
+    "requested_amount": 553000.0,
+    "user_id": "user_95"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-12",
+    "request_date": "2026-01-03",
+    "request_id": "request_96",
+    "request_text": "I've been quoted INR 90,200 for the laptop. Would paying for the laptop today leave enough for my regular expenses?",
+    "request_type": "purchase",
+    "requested_amount": 90200.0,
+    "user_id": "user_96"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-24",
+    "request_date": "2024-03-05",
+    "request_id": "request_97",
+    "request_text": "How much of the rental deposit can I safely pay today? I've been asked to pay ZAR 23,496 as the rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 23496.0,
+    "user_id": "user_97"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-15",
+    "request_date": "2025-08-07",
+    "request_id": "request_98",
+    "request_text": "I've found a travel option for ZAR 27,148. I need to complete it by 15 October 2025. Can I book the family trip now and still cover my usual expenses?",
+    "request_type": "travel",
+    "requested_amount": 27148.0,
+    "user_id": "user_98"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-07-14",
+    "request_date": "2026-07-04",
+    "request_id": "request_99",
+    "request_text": "Would paying the repair bill today take me below the balance I need to keep? I need to decide by 14 July 2026. The repair I need is priced at ZAR 18,062.",
+    "request_type": "emergency_expense",
+    "requested_amount": 18062.0,
+    "user_id": "user_99"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-08-16",
+    "request_date": "2024-06-06",
+    "request_id": "request_100",
+    "request_text": "I'm considering a ZAR 37,114 laptop. How much of the laptop price can I safely cover today?",
+    "request_type": "purchase",
+    "requested_amount": 37114.0,
+    "user_id": "user_100"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-11-14",
+    "request_date": "2025-11-03",
+    "request_id": "request_101",
+    "request_text": "Is it safer to invest now, invest a smaller amount, or wait? I'm considering setting aside INR 143,500 for an investment.",
+    "request_type": "investment",
+    "requested_amount": 143500.0,
+    "user_id": "user_101"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-12",
+    "request_date": "2026-04-05",
+    "request_id": "request_102",
+    "request_text": "The laptop comes to EUR 1,716. I need to complete it by 12 June 2026. Can I make this purchase without dipping into the balance I want to keep?",
+    "request_type": "purchase",
+    "requested_amount": 1716.0,
+    "user_id": "user_102"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-10-07",
+    "request_date": "2024-09-07",
+    "request_id": "request_103",
+    "request_text": "Can I book the family trip now and still cover my usual expenses? I need to decide by 7 October 2024. The total trip cost is INR 368,300.",
+    "request_type": "travel",
+    "requested_amount": 368300.0,
+    "user_id": "user_103"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-15",
+    "request_date": "2025-02-04",
+    "request_id": "request_104",
+    "request_text": "The laptop costs ZAR 17,204. Can I buy the laptop now without making next month's bills tight?",
+    "request_type": "purchase",
+    "requested_amount": 17204.0,
+    "user_id": "user_104"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-14",
+    "request_date": "2026-06-08",
+    "request_id": "request_105",
+    "request_text": "Can I clear this additional amount without putting upcoming bills at risk? I'm planning an extra loan payment of INR 53,500.",
+    "request_type": "debt_repayment",
+    "requested_amount": 53500.0,
+    "user_id": "user_105"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-15",
+    "request_date": "2024-12-03",
+    "request_id": "request_106",
+    "request_text": "I'm considering a professional course priced at EUR 2,207.70. I need to complete it by 15 February 2025. Is it safe to cover the full course fee by the deadline?",
+    "request_type": "education",
+    "requested_amount": 2207.7,
+    "user_id": "user_106"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-04",
+    "request_date": "2025-05-05",
+    "request_id": "request_107",
+    "request_text": "How much of the rental deposit can I safely pay today? I need to decide by 4 July 2025. The landlord has asked for a deposit of EUR 2,534.40.",
+    "request_type": "housing",
+    "requested_amount": 2534.4,
+    "user_id": "user_107"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-07-26",
+    "request_date": "2026-07-07",
+    "request_id": "request_108",
+    "request_text": "The course I want to take is ZAR 55,308. Should I pay for the course now, use installments, or wait?",
+    "request_type": "education",
+    "requested_amount": 55308.0,
+    "user_id": "user_108"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-26",
+    "request_date": "2024-03-04",
+    "request_id": "request_109",
+    "request_text": "Would sending the money now leave enough for my upcoming expenses? The amount I want to send is EUR 1,863.40.",
+    "request_type": "family_transfer",
+    "requested_amount": 1863.4,
+    "user_id": "user_109"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-11",
+    "request_date": "2025-08-06",
+    "request_id": "request_110",
+    "request_text": "I've been asked to transfer ZAR 22,352 to my family. I need to complete it by 11 October 2025. How much can I safely send to my family today?",
+    "request_type": "family_transfer",
+    "requested_amount": 22352.0,
+    "user_id": "user_110"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-05-02",
+    "request_date": "2026-04-03",
+    "request_id": "request_111",
+    "request_text": "Is the full extra repayment safe, or should I pay a smaller amount? I need to decide by 2 May 2026. I have IDR 16,625,000 in mind as an extra loan payment.",
+    "request_type": "debt_repayment",
+    "requested_amount": 16625000.0,
+    "user_id": "user_111"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-06-14",
+    "request_date": "2024-06-05",
+    "request_id": "request_112",
+    "request_text": "My family needs a transfer of EUR 271.70. Can I make the full transfer without falling short on my own bills?",
+    "request_type": "family_transfer",
+    "requested_amount": 271.7,
+    "user_id": "user_112"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-10-19",
+    "request_date": "2026-09-04",
+    "request_id": "request_113",
+    "request_text": "How much extra can I put toward the loan today? I want to put another INR 36,500 toward my loan.",
+    "request_type": "debt_repayment",
+    "requested_amount": 36500.0,
+    "user_id": "user_113"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-14",
+    "request_date": "2026-01-04",
+    "request_id": "request_114",
+    "request_text": "The annual membership costs INR 65,300. I need to complete it by 14 January 2026. Is the full membership fee affordable today, or should I wait?",
+    "request_type": "other",
+    "requested_amount": 65300.0,
+    "user_id": "user_114"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-06",
+    "request_id": "request_115",
+    "request_text": "Can I pay for the annual membership now without affecting my regular expenses? I need to decide by 15 November 2024. The membership fee is INR 80,500 for the year.",
+    "request_type": "other",
+    "requested_amount": 80500.0,
+    "user_id": "user_115"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-16",
+    "request_date": "2025-02-03",
+    "request_id": "request_116",
+    "request_text": "The amount I want to send is INR 241,200. Should I send the full amount, send part of it, or wait?",
+    "request_type": "family_transfer",
+    "requested_amount": 241200.0,
+    "user_id": "user_116"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-07-14",
+    "request_date": "2026-07-05",
+    "request_id": "request_117",
+    "request_text": "El depósito de alquiler es de EUR 880. ¿Puedo pagarlo hoy sin poner en riesgo mis otros gastos, o debería esperar?",
+    "request_type": "housing",
+    "requested_amount": 880.0,
+    "user_id": "user_117"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-08",
+    "request_date": "2024-12-07",
+    "request_id": "request_118",
+    "request_text": "I've been asked to pay EUR 738.10 as the rental deposit. I need to complete it by 8 February 2025. Would paying the full deposit leave enough for my other commitments?",
+    "request_type": "housing",
+    "requested_amount": 738.1,
+    "user_id": "user_118"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-17",
+    "request_date": "2025-05-04",
+    "request_id": "request_119",
+    "request_text": "Would paying the course fee now leave enough for my regular commitments? I need to decide by 17 July 2025. Enrolment for the course comes to INR 203,500.",
+    "request_type": "education",
+    "requested_amount": 203500.0,
+    "user_id": "user_119"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-04-14",
+    "request_date": "2026-04-06",
+    "request_id": "request_120",
+    "request_text": "I have an opportunity to invest IDR 7,714,000. How much can I invest now without affecting essential payments?",
+    "request_type": "investment",
+    "requested_amount": 7714000.0,
+    "user_id": "user_120"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-03-14",
+    "request_date": "2024-03-03",
+    "request_id": "request_121",
+    "request_text": "Is the full extra repayment safe, or should I pay a smaller amount? The additional loan payment would be USD 633.60.",
+    "request_type": "debt_repayment",
+    "requested_amount": 633.6,
+    "user_id": "user_121"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-02",
+    "request_date": "2025-08-05",
+    "request_id": "request_122",
+    "request_text": "The membership fee is IDR 20,558,000 for the year. I need to complete it by 2 October 2025. Would committing to the membership leave enough for my upcoming bills?",
+    "request_type": "other",
+    "requested_amount": 20558000.0,
+    "user_id": "user_122"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-03-28",
+    "request_date": "2026-01-07",
+    "request_id": "request_123",
+    "request_text": "What portion can I invest today without going below my minimum balance? I need to decide by 28 March 2026. I'm thinking of investing IDR 4,076,000.",
+    "request_type": "investment",
+    "requested_amount": 4076000.0,
+    "user_id": "user_123"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-08-20",
+    "request_date": "2024-06-04",
+    "request_id": "request_124",
+    "request_text": "I'm considering a yearly membership for EUR 3,104.20. Is the full membership fee affordable today, or should I wait?",
+    "request_type": "other",
+    "requested_amount": 3104.2,
+    "user_id": "user_124"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-11-14",
+    "request_date": "2025-11-06",
+    "request_id": "request_125",
+    "request_text": "Would it be safer to book the trip now or wait until more money comes in? I can book the family trip for ZAR 6,468.",
+    "request_type": "travel",
+    "requested_amount": 6468.0,
+    "user_id": "user_125"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-07-17",
+    "request_date": "2026-07-03",
+    "request_id": "request_126",
+    "request_text": "I need to cover an urgent repair of INR 159,600. I need to complete it by 17 July 2026. The repair cannot wait. How much can I safely pay today?",
+    "request_type": "emergency_expense",
+    "requested_amount": 159600.0,
+    "user_id": "user_126"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-10-18",
+    "request_date": "2024-09-05",
+    "request_id": "request_127",
+    "request_text": "Can I make the full transfer without falling short on my own bills? I need to decide by 18 October 2024. The transfer I have in mind is ZAR 23,980.",
+    "request_type": "family_transfer",
+    "requested_amount": 23980.0,
+    "user_id": "user_127"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-14",
+    "request_date": "2025-02-07",
+    "request_id": "request_128",
+    "request_text": "I need ZAR 25,168 for the course fee. Should I pay for the course now, use installments, or wait?",
+    "request_type": "education",
+    "requested_amount": 25168.0,
+    "user_id": "user_128"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-18",
+    "request_date": "2026-04-04",
+    "request_id": "request_129",
+    "request_text": "Would paying the course fee now leave enough for my regular commitments? The course I want to take is USD 2,668.80.",
+    "request_type": "education",
+    "requested_amount": 2668.8,
+    "user_id": "user_129"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-15",
+    "request_date": "2024-12-06",
+    "request_id": "request_130",
+    "request_text": "The amount I want to send is USD 1,978.80. I need to complete it by 15 February 2025. How much can I safely send to my family today?",
+    "request_type": "family_transfer",
+    "requested_amount": 1978.8,
+    "user_id": "user_130"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-07-08",
+    "request_date": "2025-05-03",
+    "request_id": "request_131",
+    "request_text": "Is it safe to cover the full course fee by the deadline? I need to decide by 8 July 2025. The professional course costs USD 1,855.20.",
+    "request_type": "education",
+    "requested_amount": 1855.2,
+    "user_id": "user_131"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-02-25",
+    "request_date": "2026-01-05",
+    "request_id": "request_132",
+    "request_text": "I want to send USD 379.86 to my family. Can I make the full transfer without falling short on my own bills?",
+    "request_type": "family_transfer",
+    "requested_amount": 379.86,
+    "user_id": "user_132"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-03-29",
+    "request_date": "2024-03-07",
+    "request_id": "request_133",
+    "request_text": "Is the laptop affordable right now, or should I wait? I've found a laptop for IDR 15,770,000.",
+    "request_type": "purchase",
+    "requested_amount": 15770000.0,
+    "user_id": "user_133"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-15",
+    "request_date": "2025-08-04",
+    "request_id": "request_134",
+    "request_text": "The laptop I'm looking at is IDR 21,831,000. I need to complete it by 15 October 2025. Can I buy the laptop now without making next month's bills tight?",
+    "request_type": "purchase",
+    "requested_amount": 21831000.0,
+    "user_id": "user_134"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-07-14",
+    "request_date": "2026-07-06",
+    "request_id": "request_135",
+    "request_text": "Is the deposit affordable now, or do I need more time? I need to decide by 14 July 2026. The landlord has asked for a deposit of USD 304.80.",
+    "request_type": "housing",
+    "requested_amount": 304.8,
+    "user_id": "user_135"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-06-14",
+    "request_date": "2024-06-03",
+    "request_id": "request_136",
+    "request_text": "The course I want to take is USD 560.40. Is it safe to cover the full course fee by the deadline?",
+    "request_type": "education",
+    "requested_amount": 560.4,
+    "user_id": "user_136"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-15",
+    "request_date": "2025-11-05",
+    "request_id": "request_137",
+    "request_text": "Can I make this purchase without dipping into the balance I want to keep? The laptop comes to INR 80,100.",
+    "request_type": "purchase",
+    "requested_amount": 80100.0,
+    "user_id": "user_137"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-06-05",
+    "request_date": "2026-04-07",
+    "request_id": "request_138",
+    "request_text": "I've been quoted EUR 1,256.94 for the laptop. I need to complete it by 5 June 2026. Is the laptop affordable right now, or should I wait?",
+    "request_type": "purchase",
+    "requested_amount": 1256.94,
+    "user_id": "user_138"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-17",
+    "request_date": "2024-09-04",
+    "request_id": "request_139",
+    "request_text": "Can I cover this deposit without putting rent and regular bills at risk? I need to decide by 17 November 2024. I've been asked to pay USD 2,316 as the rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 2316.0,
+    "user_id": "user_139"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-03-04",
+    "request_date": "2025-02-06",
+    "request_id": "request_140",
+    "request_text": "I need to cover an urgent repair of ZAR 62,832. Should I pay for the repair in full, split the payment, or wait?",
+    "request_type": "emergency_expense",
+    "requested_amount": 62832.0,
+    "user_id": "user_140"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-02-12",
+    "request_date": "2026-01-03",
+    "request_id": "request_141",
+    "request_text": "How much can I safely pay toward the membership now? I've been offered the annual membership for INR 171,600.",
+    "request_type": "other",
+    "requested_amount": 171600.0,
+    "user_id": "user_141"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-02-04",
+    "request_date": "2024-12-05",
+    "request_id": "request_142",
+    "request_text": "The amount I would like to invest is USD 1,263.60. I need to complete it by 4 February 2025. Can I make the full investment and still keep enough cash available?",
+    "request_type": "investment",
+    "requested_amount": 1263.6,
+    "user_id": "user_142"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-15",
+    "request_date": "2025-05-07",
+    "request_id": "request_143",
+    "request_text": "Can I cover the full repair now and still manage my essential expenses? I need to decide by 15 July 2025. The latest estimate for the repair is ZAR 12,584.",
+    "request_type": "emergency_expense",
+    "requested_amount": 12584.0,
+    "user_id": "user_143"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-07-26",
+    "request_date": "2026-07-04",
+    "request_id": "request_144",
+    "request_text": "I'm thinking of investing USD 233.34. Would investing this amount leave my upcoming bills covered?",
+    "request_type": "investment",
+    "requested_amount": 233.34,
+    "user_id": "user_144"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-05-26",
+    "request_date": "2024-03-06",
+    "request_id": "request_145",
+    "request_text": "Would it be safer to book the trip now or wait until more money comes in? The total trip cost is INR 217,400.",
+    "request_type": "travel",
+    "requested_amount": 217400.0,
+    "user_id": "user_145"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-10-17",
+    "request_date": "2025-08-03",
+    "request_id": "request_146",
+    "request_text": "I've been asked to pay INR 449,400 as the rental deposit. I need to complete it by 17 October 2025. Can I pay the rental deposit by the requested date?",
+    "request_type": "housing",
+    "requested_amount": 449400.0,
+    "user_id": "user_146"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-06-07",
+    "request_date": "2026-04-05",
+    "request_id": "request_147",
+    "request_text": "Can I afford the full trip without putting upcoming bills at risk? I need to decide by 7 June 2026. I've found a travel option for EUR 1,129.70.",
+    "request_type": "travel",
+    "requested_amount": 1129.7,
+    "user_id": "user_147"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-08-18",
+    "request_date": "2024-06-07",
+    "request_id": "request_148",
+    "request_text": "The laptop I'm looking at is ZAR 22,242. Is the laptop affordable right now, or should I wait?",
+    "request_type": "purchase",
+    "requested_amount": 22242.0,
+    "user_id": "user_148"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-19",
+    "request_date": "2025-11-04",
+    "request_id": "request_149",
+    "request_text": "How much can I safely put toward the booking today? The current quote for the trip is ZAR 36,652.",
+    "request_type": "travel",
+    "requested_amount": 36652.0,
+    "user_id": "user_149"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-16",
+    "request_date": "2026-01-06",
+    "request_id": "request_150",
+    "request_text": "The course I want to take is EUR 496.10. I need to complete it by 16 March 2026. How much of the course fee can I manage without cutting into essentials?",
+    "request_type": "education",
+    "requested_amount": 496.1,
+    "user_id": "user_150"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-09-14",
+    "request_date": "2024-09-03",
+    "request_id": "request_151",
+    "request_text": "Can I pay the rental deposit by the requested date? I need to decide by 14 September 2024. I need IDR 26,999,000 for the rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 26999000.0,
+    "user_id": "user_151"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-13",
+    "request_date": "2025-02-05",
+    "request_id": "request_152",
+    "request_text": "I've received a repair quote for ZAR 13,882. What is the most I can put toward this repair right now?",
+    "request_type": "emergency_expense",
+    "requested_amount": 13882.0,
+    "user_id": "user_152"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-09-24",
+    "request_date": "2026-07-07",
+    "request_id": "request_153",
+    "request_text": "Is the laptop affordable right now, or should I wait? The laptop costs USD 2,830.80.",
+    "request_type": "purchase",
+    "requested_amount": 2830.8,
+    "user_id": "user_153"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-14",
+    "request_date": "2024-12-04",
+    "request_id": "request_154",
+    "request_text": "I've found a travel option for EUR 1,625.80. I need to complete it by 14 February 2025. How much can I safely put toward the booking today?",
+    "request_type": "travel",
+    "requested_amount": 1625.8,
+    "user_id": "user_154"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-05-20",
+    "request_date": "2025-05-06",
+    "request_id": "request_155",
+    "request_text": "How much of the laptop price can I safely cover today? I need to decide by 20 May 2025. The laptop I'm looking at is INR 112,500.",
+    "request_type": "purchase",
+    "requested_amount": 112500.0,
+    "user_id": "user_155"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-15",
+    "request_date": "2026-04-03",
+    "request_id": "request_156",
+    "request_text": "I need ZAR 43,076 for the course fee. Is it safe to cover the full course fee by the deadline?",
+    "request_type": "education",
+    "requested_amount": 43076.0,
+    "user_id": "user_156"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-05-15",
+    "request_date": "2024-03-05",
+    "request_id": "request_157",
+    "request_text": "Can I make the full investment and still keep enough cash available? I'm considering setting aside IDR 23,503,000 for an investment.",
+    "request_type": "investment",
+    "requested_amount": 23503000.0,
+    "user_id": "user_157"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-02",
+    "request_date": "2025-08-07",
+    "request_id": "request_158",
+    "request_text": "The urgent repair will cost INR 242,600. I need to complete it by 2 October 2025. Can I cover the full repair now and still manage my essential expenses?",
+    "request_type": "emergency_expense",
+    "requested_amount": 242600.0,
+    "user_id": "user_158"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-03-20",
+    "request_date": "2026-01-04",
+    "request_id": "request_159",
+    "request_text": "Would investing this amount leave my upcoming bills covered? I need to decide by 20 March 2026. The investment I'm considering is ZAR 13,398.",
+    "request_type": "investment",
+    "requested_amount": 13398.0,
+    "user_id": "user_159"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-08-20",
+    "request_date": "2024-06-06",
+    "request_id": "request_160",
+    "request_text": "I can book the family trip for EUR 1,246.30. Would it be safer to book the trip now or wait until more money comes in?",
+    "request_type": "travel",
+    "requested_amount": 1246.3,
+    "user_id": "user_160"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-15",
+    "request_date": "2025-11-03",
+    "request_id": "request_161",
+    "request_text": "Is the full extra repayment safe, or should I pay a smaller amount? I'm planning an extra loan payment of IDR 21,204,000.",
+    "request_type": "debt_repayment",
+    "requested_amount": 21204000.0,
+    "user_id": "user_161"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-08-26",
+    "request_date": "2026-07-05",
+    "request_id": "request_162",
+    "request_text": "I've been offered the annual membership for IDR 83,923,000. I need to complete it by 26 August 2026. Would committing to the membership leave enough for my upcoming bills?",
+    "request_type": "other",
+    "requested_amount": 83923000.0,
+    "user_id": "user_162"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-07",
+    "request_id": "request_163",
+    "request_text": "Can I take the membership and still keep my minimum balance intact? I need to decide by 15 November 2024. The annual membership costs IDR 19,304,000.",
+    "request_type": "other",
+    "requested_amount": 19304000.0,
+    "user_id": "user_163"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-15",
+    "request_date": "2025-02-04",
+    "request_id": "request_164",
+    "request_text": "The membership fee is IDR 27,018,000 for the year. Is the full membership fee affordable today, or should I wait?",
+    "request_type": "other",
+    "requested_amount": 27018000.0,
+    "user_id": "user_164"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-04-21",
+    "request_date": "2026-04-06",
+    "request_id": "request_165",
+    "request_text": "Would it be safer to book the trip now or wait until more money comes in? I'm planning a family trip that costs INR 80,600.",
+    "request_type": "travel",
+    "requested_amount": 80600.0,
+    "user_id": "user_165"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-05",
+    "request_date": "2024-12-03",
+    "request_id": "request_166",
+    "request_text": "I'm considering a yearly membership for USD 2,907.60. I need to complete it by 5 February 2025. How much can I safely pay toward the membership now?",
+    "request_type": "other",
+    "requested_amount": 2907.6,
+    "user_id": "user_166"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-05-31",
+    "request_date": "2025-05-05",
+    "request_id": "request_167",
+    "request_text": "How much of the rental deposit can I safely pay today? I need to decide by 31 May 2025. I've been asked to pay ZAR 43,802 as the rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 43802.0,
+    "user_id": "user_167"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-03-16",
+    "request_date": "2026-01-07",
+    "request_id": "request_168",
+    "request_text": "The rental deposit is INR 49,380. Would paying the full deposit leave enough for my other commitments?",
+    "request_type": "housing",
+    "requested_amount": 49380.0,
+    "user_id": "user_168"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-16",
+    "request_date": "2024-03-04",
+    "request_id": "request_169",
+    "request_text": "Would paying the course fee now leave enough for my regular commitments? I'm considering a professional course priced at ZAR 41,976.",
+    "request_type": "education",
+    "requested_amount": 41976.0,
+    "user_id": "user_169"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-04",
+    "request_date": "2025-08-06",
+    "request_id": "request_170",
+    "request_text": "The annual membership costs IDR 36,936,000. I need to complete it by 4 October 2025. Can I pay for the annual membership now without affecting my regular expenses?",
+    "request_type": "other",
+    "requested_amount": 36936000.0,
+    "user_id": "user_170"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-09-10",
+    "request_date": "2026-07-03",
+    "request_id": "request_171",
+    "request_text": "Is it safer to invest now, invest a smaller amount, or wait? I need to decide by 10 September 2026. I'm considering setting aside EUR 1,878.80 for an investment.",
+    "request_type": "investment",
+    "requested_amount": 1878.8,
+    "user_id": "user_171"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-07-15",
+    "request_date": "2024-06-05",
+    "request_id": "request_172",
+    "request_text": "I've been quoted ZAR 10,200 for the course. Can I pay for the course before enrolment closes?",
+    "request_type": "education",
+    "requested_amount": 10200.0,
+    "user_id": "user_172"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-01-17",
+    "request_date": "2025-11-07",
+    "request_id": "request_173",
+    "request_text": "Can I complete this family transfer and still keep my minimum balance? I've been asked to transfer INR 113,000 to my family.",
+    "request_type": "family_transfer",
+    "requested_amount": 113000.0,
+    "user_id": "user_173"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-07",
+    "request_date": "2026-04-04",
+    "request_id": "request_174",
+    "request_text": "I want to put EUR 1,146.20 into an investment. I need to complete it by 7 June 2026. Would investing this amount leave my upcoming bills covered?",
+    "request_type": "investment",
+    "requested_amount": 1146.2,
+    "user_id": "user_174"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-10-01",
+    "request_date": "2024-09-06",
+    "request_id": "request_175",
+    "request_text": "Should I pay for the repair in full, split the payment, or wait? I need to decide by 1 October 2024. I need to cover an urgent repair of EUR 2,346.30.",
+    "request_type": "emergency_expense",
+    "requested_amount": 2346.3,
+    "user_id": "user_175"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-27",
+    "request_date": "2025-02-03",
+    "request_id": "request_176",
+    "request_text": "The family trip will cost EUR 1,239.70. Does paying for the trip now leave enough for the rest of the month?",
+    "request_type": "travel",
+    "requested_amount": 1239.7,
+    "user_id": "user_176"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-25",
+    "request_date": "2026-01-05",
+    "request_id": "request_177",
+    "request_text": "What is the most I can put toward this repair right now? I have an unexpected repair bill of USD 1,017.60.",
+    "request_type": "emergency_expense",
+    "requested_amount": 1017.6,
+    "user_id": "user_177"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-12",
+    "request_date": "2024-12-07",
+    "request_id": "request_178",
+    "request_text": "I'm considering setting aside EUR 2,938.10 for an investment. I need to complete it by 12 February 2025. What portion can I invest today without going below my minimum balance?",
+    "request_type": "investment",
+    "requested_amount": 2938.1,
+    "user_id": "user_178"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-15",
+    "request_date": "2025-05-04",
+    "request_id": "request_179",
+    "request_text": "Would paying this much toward the loan leave enough for the rest of the month? I need to decide by 15 July 2025. I would like to repay an additional IDR 41,648,000.",
+    "request_type": "debt_repayment",
+    "requested_amount": 41648000.0,
+    "user_id": "user_179"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-09-02",
+    "request_date": "2026-07-06",
+    "request_id": "request_180",
+    "request_text": "The extra repayment I'm considering is INR 66,500. Can I clear this additional amount without putting upcoming bills at risk?",
+    "request_type": "debt_repayment",
+    "requested_amount": 66500.0,
+    "user_id": "user_180"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-04-07",
+    "request_date": "2024-03-03",
+    "request_id": "request_181",
+    "request_text": "Is it safer to invest now, invest a smaller amount, or wait? I want to put USD 5,059.20 into an investment.",
+    "request_type": "investment",
+    "requested_amount": 5059.2,
+    "user_id": "user_181"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-09-26",
+    "request_date": "2025-08-05",
+    "request_id": "request_182",
+    "request_text": "I'm planning an extra loan payment of ZAR 65,714. I need to complete it by 26 September 2025. Can I make the extra loan payment now without affecting essential expenses?",
+    "request_type": "debt_repayment",
+    "requested_amount": 65714.0,
+    "user_id": "user_182"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-18",
+    "request_date": "2026-04-07",
+    "request_id": "request_183",
+    "request_text": "Can I cover the full repair now and still manage my essential expenses? I need to decide by 18 June 2026. The repair I need is priced at IDR 26,866,000.",
+    "request_type": "emergency_expense",
+    "requested_amount": 26866000.0,
+    "user_id": "user_183"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-07-30",
+    "request_date": "2024-06-04",
+    "request_id": "request_184",
+    "request_text": "The additional loan payment would be INR 251,900. Would paying this much toward the loan leave enough for the rest of the month?",
+    "request_type": "debt_repayment",
+    "requested_amount": 251900.0,
+    "user_id": "user_184"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-01-15",
+    "request_date": "2025-11-06",
+    "request_id": "request_185",
+    "request_text": "Would it be safer to book the trip now or wait until more money comes in? The booking comes to EUR 1,257.30.",
+    "request_type": "travel",
+    "requested_amount": 1257.3,
+    "user_id": "user_185"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-15",
+    "request_date": "2026-01-03",
+    "request_id": "request_186",
+    "request_text": "I'm thinking of investing ZAR 26,554. I need to complete it by 15 March 2026. Is it safer to invest now, invest a smaller amount, or wait?",
+    "request_type": "investment",
+    "requested_amount": 26554.0,
+    "user_id": "user_186"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-05",
+    "request_id": "request_187",
+    "request_text": "Would committing to the membership leave enough for my upcoming bills? I need to decide by 15 November 2024. I'm considering a yearly membership for INR 187,500.",
+    "request_type": "other",
+    "requested_amount": 187500.0,
+    "user_id": "user_187"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-03-04",
+    "request_date": "2025-02-07",
+    "request_id": "request_188",
+    "request_text": "I want to send EUR 2,464 to my family. Can I complete this family transfer and still keep my minimum balance?",
+    "request_type": "family_transfer",
+    "requested_amount": 2464.0,
+    "user_id": "user_188"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-08-14",
+    "request_date": "2026-07-04",
+    "request_id": "request_189",
+    "request_text": "Would paying this much toward the loan leave enough for the rest of the month? I'm planning an extra loan payment of EUR 488.40.",
+    "request_type": "debt_repayment",
+    "requested_amount": 488.4,
+    "user_id": "user_189"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-02-15",
+    "request_date": "2024-12-06",
+    "request_id": "request_190",
+    "request_text": "The laptop I'm looking at is EUR 2,557.50. I need to complete it by 15 February 2025. How much of the laptop price can I safely cover today?",
+    "request_type": "purchase",
+    "requested_amount": 2557.5,
+    "user_id": "user_190"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-17",
+    "request_date": "2025-05-03",
+    "request_id": "request_191",
+    "request_text": "Is it safer to invest now, invest a smaller amount, or wait? I need to decide by 17 July 2025. The amount I would like to invest is EUR 664.40.",
+    "request_type": "investment",
+    "requested_amount": 664.4,
+    "user_id": "user_191"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-05-11",
+    "request_date": "2026-04-05",
+    "request_id": "request_192",
+    "request_text": "The course I want to take is USD 2,046. Can I pay for the course before enrolment closes?",
+    "request_type": "education",
+    "requested_amount": 2046.0,
+    "user_id": "user_192"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-28",
+    "request_date": "2024-03-07",
+    "request_id": "request_193",
+    "request_text": "Can I take the membership and still keep my minimum balance intact? The annual plan comes to EUR 1,212.20.",
+    "request_type": "other",
+    "requested_amount": 1212.2,
+    "user_id": "user_193"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-23",
+    "request_date": "2025-08-04",
+    "request_id": "request_194",
+    "request_text": "The move requires a INR 132,800 deposit. I need to complete it by 23 October 2025. Can I cover this deposit without putting rent and regular bills at risk?",
+    "request_type": "housing",
+    "requested_amount": 132800.0,
+    "user_id": "user_194"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-03-11",
+    "request_date": "2026-01-06",
+    "request_id": "request_195",
+    "request_text": "How much of the laptop price can I safely cover today? I need to decide by 11 March 2026. The laptop costs EUR 1,170.40.",
+    "request_type": "purchase",
+    "requested_amount": 1170.4,
+    "user_id": "user_195"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-07-05",
+    "request_date": "2024-06-03",
+    "request_id": "request_196",
+    "request_text": "I've found a laptop for EUR 762.30. Would paying for the laptop today leave enough for my regular expenses?",
+    "request_type": "purchase",
+    "requested_amount": 762.3,
+    "user_id": "user_196"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-01-21",
+    "request_date": "2025-11-05",
+    "request_id": "request_197",
+    "request_text": "Can I make the full transfer without falling short on my own bills? The transfer I have in mind is IDR 50,939,000.",
+    "request_type": "family_transfer",
+    "requested_amount": 50939000.0,
+    "user_id": "user_197"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-09-21",
+    "request_date": "2026-07-07",
+    "request_id": "request_198",
+    "request_text": "I need INR 185,800 for the course fee. I need to complete it by 21 September 2026. Should I pay for the course now, use installments, or wait?",
+    "request_type": "education",
+    "requested_amount": 185800.0,
+    "user_id": "user_198"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-10",
+    "request_date": "2024-09-04",
+    "request_id": "request_199",
+    "request_text": "Can I cover this deposit without putting rent and regular bills at risk? I need to decide by 10 November 2024. The deposit on the place comes to IDR 23,674,000.",
+    "request_type": "housing",
+    "requested_amount": 23674000.0,
+    "user_id": "user_199"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-10",
+    "request_date": "2025-02-06",
+    "request_id": "request_200",
+    "request_text": "The laptop comes to IDR 21,717,000. How much of the laptop price can I safely cover today?",
+    "request_type": "purchase",
+    "requested_amount": 21717000.0,
+    "user_id": "user_200"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-05-16",
+    "request_date": "2026-04-03",
+    "request_id": "request_201",
+    "request_text": "Is the full extra repayment safe, or should I pay a smaller amount? The extra repayment I'm considering is IDR 23,997,000.",
+    "request_type": "debt_repayment",
+    "requested_amount": 23997000.0,
+    "user_id": "user_201"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-01-14",
+    "request_date": "2024-12-05",
+    "request_id": "request_202",
+    "request_text": "I want to send INR 123,900 to my family. I need to complete it by 14 January 2025. Can I make the full transfer without falling short on my own bills?",
+    "request_type": "family_transfer",
+    "requested_amount": 123900.0,
+    "user_id": "user_202"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-08",
+    "request_date": "2025-05-07",
+    "request_id": "request_203",
+    "request_text": "Can I cover the full repair now and still manage my essential expenses? I need to decide by 8 July 2025. I need to cover an urgent repair of EUR 1,442.10.",
+    "request_type": "emergency_expense",
+    "requested_amount": 1442.1,
+    "user_id": "user_203"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-01-31",
+    "request_date": "2026-01-04",
+    "request_id": "request_204",
+    "request_text": "I need to pay a EUR 588.74 rental deposit. Can I cover this deposit without putting rent and regular bills at risk?",
+    "request_type": "housing",
+    "requested_amount": 588.74,
+    "user_id": "user_204"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-05-19",
+    "request_date": "2024-03-06",
+    "request_id": "request_205",
+    "request_text": "Can I clear this additional amount without putting upcoming bills at risk? The additional loan payment would be IDR 10,621,000.",
+    "request_type": "debt_repayment",
+    "requested_amount": 10621000.0,
+    "user_id": "user_205"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-09-29",
+    "request_date": "2025-08-03",
+    "request_id": "request_206",
+    "request_text": "I need to make a family transfer of EUR 1,404.70. I need to complete it by 29 September 2025. Should I send the full amount, send part of it, or wait?",
+    "request_type": "family_transfer",
+    "requested_amount": 1404.7,
+    "user_id": "user_206"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-07-24",
+    "request_date": "2026-07-05",
+    "request_id": "request_207",
+    "request_text": "Can I make the full transfer without falling short on my own bills? I need to decide by 24 July 2026. The amount I want to send is ZAR 11,830.",
+    "request_type": "family_transfer",
+    "requested_amount": 11830.0,
+    "user_id": "user_207"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-07-13",
+    "request_date": "2024-06-07",
+    "request_id": "request_208",
+    "request_text": "The total trip cost is IDR 4,413,000. Can I book the family trip now and still cover my usual expenses?",
+    "request_type": "travel",
+    "requested_amount": 4413000.0,
+    "user_id": "user_208"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-11-25",
+    "request_date": "2025-11-04",
+    "request_id": "request_209",
+    "request_text": "How much can I safely put toward the booking today? I can book the family trip for ZAR 56,914.",
+    "request_type": "travel",
+    "requested_amount": 56914.0,
+    "user_id": "user_209"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-06-23",
+    "request_date": "2026-04-06",
+    "request_id": "request_210",
+    "request_text": "I need to cover an urgent repair of USD 1,360.02. I need to complete it by 23 June 2026. Should I pay for the repair in full, split the payment, or wait?",
+    "request_type": "emergency_expense",
+    "requested_amount": 1360.02,
+    "user_id": "user_210"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-03",
+    "request_id": "request_211",
+    "request_text": "How much can I safely pay toward the membership now? I need to decide by 15 November 2024. I've been offered the annual membership for EUR 1,788.60.",
+    "request_type": "other",
+    "requested_amount": 1788.6,
+    "user_id": "user_211"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-02-28",
+    "request_date": "2025-02-05",
+    "request_id": "request_212",
+    "request_text": "The annual membership costs IDR 71,934,000. Would committing to the membership leave enough for my upcoming bills?",
+    "request_type": "other",
+    "requested_amount": 71934000.0,
+    "user_id": "user_212"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-22",
+    "request_date": "2026-01-07",
+    "request_id": "request_213",
+    "request_text": "Can I complete this family transfer and still keep my minimum balance? I need to make a family transfer of USD 3,362.40.",
+    "request_type": "family_transfer",
+    "requested_amount": 3362.4,
+    "user_id": "user_213"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-01-28",
+    "request_date": "2024-12-04",
+    "request_id": "request_214",
+    "request_text": "The annual plan comes to INR 69,750. I need to complete it by 28 January 2025. Is the full membership fee affordable today, or should I wait?",
+    "request_type": "other",
+    "requested_amount": 69750.0,
+    "user_id": "user_214"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-07-10",
+    "request_date": "2025-05-06",
+    "request_id": "request_215",
+    "request_text": "How much can I invest now without affecting essential payments? I need to decide by 10 July 2025. The investment I'm considering is ZAR 29,986.",
+    "request_type": "investment",
+    "requested_amount": 29986.0,
+    "user_id": "user_215"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-09-15",
+    "request_date": "2026-07-03",
+    "request_id": "request_216",
+    "request_text": "I can book the family trip for USD 3,332.40. Does paying for the trip now leave enough for the rest of the month?",
+    "request_type": "travel",
+    "requested_amount": 3332.4,
+    "user_id": "user_216"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-05-21",
+    "request_date": "2024-03-05",
+    "request_id": "request_217",
+    "request_text": "Can I afford the full trip without putting upcoming bills at risk? I've found a travel option for ZAR 37,180.",
+    "request_type": "travel",
+    "requested_amount": 37180.0,
+    "user_id": "user_217"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-06",
+    "request_date": "2025-08-07",
+    "request_id": "request_218",
+    "request_text": "The laptop I'm looking at is IDR 61,142,000. I need to complete it by 6 October 2025. Is the laptop affordable right now, or should I wait?",
+    "request_type": "purchase",
+    "requested_amount": 61142000.0,
+    "user_id": "user_218"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-06-13",
+    "request_date": "2026-04-04",
+    "request_id": "request_219",
+    "request_text": "Would paying the course fee now leave enough for my regular commitments? I need to decide by 13 June 2026. I need EUR 1,673.10 for the course fee.",
+    "request_type": "education",
+    "requested_amount": 1673.1,
+    "user_id": "user_219"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-07-03",
+    "request_date": "2024-06-06",
+    "request_id": "request_220",
+    "request_text": "I'm considering setting aside EUR 3,118.50 for an investment. How much can I invest now without affecting essential payments?",
+    "request_type": "investment",
+    "requested_amount": 3118.5,
+    "user_id": "user_220"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-14",
+    "request_date": "2025-11-03",
+    "request_id": "request_221",
+    "request_text": "Can I pay the rental deposit by the requested date? I need INR 109,800 for the rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 109800.0,
+    "user_id": "user_221"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-10",
+    "request_date": "2026-01-05",
+    "request_id": "request_222",
+    "request_text": "The professional course costs ZAR 34,078. I need to complete it by 10 March 2026. Can I pay for the course before enrolment closes?",
+    "request_type": "education",
+    "requested_amount": 34078.0,
+    "user_id": "user_222"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-10-20",
+    "request_date": "2024-09-07",
+    "request_id": "request_223",
+    "request_text": "Is the laptop affordable right now, or should I wait? I need to decide by 20 October 2024. The laptop costs EUR 898.70.",
+    "request_type": "purchase",
+    "requested_amount": 898.7,
+    "user_id": "user_223"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-03-16",
+    "request_date": "2025-02-04",
+    "request_id": "request_224",
+    "request_text": "I've found a travel option for IDR 10,327,000. How much can I safely put toward the booking today?",
+    "request_type": "travel",
+    "requested_amount": 10327000.0,
+    "user_id": "user_224"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-09-21",
+    "request_date": "2026-07-06",
+    "request_id": "request_225",
+    "request_text": "Should I pay for the repair in full, split the payment, or wait? The repair I need is priced at IDR 22,059,000.",
+    "request_type": "emergency_expense",
+    "requested_amount": 22059000.0,
+    "user_id": "user_225"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-01-15",
+    "request_date": "2024-12-03",
+    "request_id": "request_226",
+    "request_text": "The annual membership costs INR 157,000. I need to complete it by 15 January 2025. How much can I safely pay toward the membership now?",
+    "request_type": "other",
+    "requested_amount": 157000.0,
+    "user_id": "user_226"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-06-20",
+    "request_date": "2025-05-05",
+    "request_id": "request_227",
+    "request_text": "Can I make the extra loan payment now without affecting essential expenses? I need to decide by 20 June 2025. I'm considering paying an extra INR 259,700 off the loan.",
+    "request_type": "debt_repayment",
+    "requested_amount": 259700.0,
+    "user_id": "user_227"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-04-30",
+    "request_date": "2026-04-07",
+    "request_id": "request_228",
+    "request_text": "I'm thinking of investing IDR 63,327,000. What portion can I invest today without going below my minimum balance?",
+    "request_type": "investment",
+    "requested_amount": 63327000.0,
+    "user_id": "user_228"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-23",
+    "request_date": "2024-03-04",
+    "request_id": "request_229",
+    "request_text": "How much can I safely put toward the booking today? The total trip cost is EUR 1,526.80.",
+    "request_type": "travel",
+    "requested_amount": 1526.8,
+    "user_id": "user_229"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-04",
+    "request_date": "2025-08-06",
+    "request_id": "request_230",
+    "request_text": "I have EUR 3,537.60 in mind as an extra loan payment. I need to complete it by 4 October 2025. Can I clear this additional amount without putting upcoming bills at risk?",
+    "request_type": "debt_repayment",
+    "requested_amount": 3537.6,
+    "user_id": "user_230"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-03-17",
+    "request_date": "2026-01-03",
+    "request_id": "request_231",
+    "request_text": "Would paying for the laptop today leave enough for my regular expenses? I need to decide by 17 March 2026. I've found a laptop for ZAR 35,706.",
+    "request_type": "purchase",
+    "requested_amount": 35706.0,
+    "user_id": "user_231"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-08-15",
+    "request_date": "2024-06-05",
+    "request_id": "request_232",
+    "request_text": "The family trip will cost EUR 1,970.10. Can I afford the full trip without putting upcoming bills at risk?",
+    "request_type": "travel",
+    "requested_amount": 1970.1,
+    "user_id": "user_232"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-12-17",
+    "request_date": "2025-11-07",
+    "request_id": "request_233",
+    "request_text": "Would paying the full deposit leave enough for my other commitments? The landlord has asked for a deposit of IDR 6,241,000.",
+    "request_type": "housing",
+    "requested_amount": 6241000.0,
+    "user_id": "user_233"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-09-15",
+    "request_date": "2026-07-04",
+    "request_id": "request_234",
+    "request_text": "I'm considering paying an extra EUR 1,213.30 off the loan. I need to complete it by 15 September 2026. Would paying this much toward the loan leave enough for the rest of the month?",
+    "request_type": "debt_repayment",
+    "requested_amount": 1213.3,
+    "user_id": "user_234"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-10-25",
+    "request_date": "2024-09-06",
+    "request_id": "request_235",
+    "request_text": "How much of the course fee can I manage without cutting into essentials? I need to decide by 25 October 2024. I've been quoted USD 967.20 for the course.",
+    "request_type": "education",
+    "requested_amount": 967.2,
+    "user_id": "user_235"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-02-23",
+    "request_date": "2025-02-03",
+    "request_id": "request_236",
+    "request_text": "The move requires a IDR 52,383,000 deposit. Can I pay the rental deposit by the requested date?",
+    "request_type": "housing",
+    "requested_amount": 52383000.0,
+    "user_id": "user_236"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-05-20",
+    "request_date": "2026-04-05",
+    "request_id": "request_237",
+    "request_text": "Would committing to the membership leave enough for my upcoming bills? Renewing the membership would cost IDR 23,826,000.",
+    "request_type": "other",
+    "requested_amount": 23826000.0,
+    "user_id": "user_237"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-16",
+    "request_date": "2024-12-07",
+    "request_id": "request_238",
+    "request_text": "I'm planning an investment contribution of USD 663.60. I need to complete it by 16 February 2025. What portion can I invest today without going below my minimum balance?",
+    "request_type": "investment",
+    "requested_amount": 663.6,
+    "user_id": "user_238"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-05-24",
+    "request_date": "2025-05-04",
+    "request_id": "request_239",
+    "request_text": "Would investing this amount leave my upcoming bills covered? I need to decide by 24 May 2025. I have an opportunity to invest USD 642.",
+    "request_type": "investment",
+    "requested_amount": 642.0,
+    "user_id": "user_239"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-03-20",
+    "request_date": "2026-01-06",
+    "request_id": "request_240",
+    "request_text": "The current quote for the trip is INR 101,200. Would it be safer to book the trip now or wait until more money comes in?",
+    "request_type": "travel",
+    "requested_amount": 101200.0,
+    "user_id": "user_240"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-05-25",
+    "request_date": "2024-03-03",
+    "request_id": "request_241",
+    "request_text": "Should I send the full amount, send part of it, or wait? I need to make a family transfer of IDR 21,052,000.",
+    "request_type": "family_transfer",
+    "requested_amount": 21052000.0,
+    "user_id": "user_241"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-08-25",
+    "request_date": "2025-08-05",
+    "request_id": "request_242",
+    "request_text": "I would like to repay an additional EUR 1,966.80. I need to complete it by 25 August 2025. Can I make the extra loan payment now without affecting essential expenses?",
+    "request_type": "debt_repayment",
+    "requested_amount": 1966.8,
+    "user_id": "user_242"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-08-09",
+    "request_date": "2026-07-07",
+    "request_id": "request_243",
+    "request_text": "Can I cover the full repair now and still manage my essential expenses? I need to decide by 9 August 2026. I've received a repair quote for ZAR 17,468.",
+    "request_type": "emergency_expense",
+    "requested_amount": 17468.0,
+    "user_id": "user_243"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-07-16",
+    "request_date": "2024-06-04",
+    "request_id": "request_244",
+    "request_text": "I want to send ZAR 49,918 to my family. Would sending the money now leave enough for my upcoming expenses?",
+    "request_type": "family_transfer",
+    "requested_amount": 49918.0,
+    "user_id": "user_244"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-15",
+    "request_date": "2025-11-06",
+    "request_id": "request_245",
+    "request_text": "Should I pay for the repair in full, split the payment, or wait? I need to cover an urgent repair of INR 128,500.",
+    "request_type": "emergency_expense",
+    "requested_amount": 128500.0,
+    "user_id": "user_245"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-02",
+    "request_date": "2026-04-03",
+    "request_id": "request_246",
+    "request_text": "I'm considering a professional course priced at ZAR 64,086. I need to complete it by 2 June 2026. Is it safe to cover the full course fee by the deadline?",
+    "request_type": "education",
+    "requested_amount": 64086.0,
+    "user_id": "user_246"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-11-08",
+    "request_date": "2024-09-05",
+    "request_id": "request_247",
+    "request_text": "Can I make the full transfer without falling short on my own bills? I need to decide by 8 November 2024. I'm planning to send my family EUR 1,059.30.",
+    "request_type": "family_transfer",
+    "requested_amount": 1059.3,
+    "user_id": "user_247"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-04-28",
+    "request_date": "2025-02-07",
+    "request_id": "request_248",
+    "request_text": "I'm considering setting aside USD 1,965.60 for an investment. What portion can I invest today without going below my minimum balance?",
+    "request_type": "investment",
+    "requested_amount": 1965.6,
+    "user_id": "user_248"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-03-15",
+    "request_date": "2026-01-04",
+    "request_id": "request_249",
+    "request_text": "Is the full membership fee affordable today, or should I wait? The annual plan comes to USD 643.20.",
+    "request_type": "other",
+    "requested_amount": 643.2,
+    "user_id": "user_249"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-01-18",
+    "request_date": "2024-12-06",
+    "request_id": "request_250",
+    "request_text": "The extra repayment I'm considering is ZAR 124,278. I need to complete it by 18 January 2025. Can I clear this additional amount without putting upcoming bills at risk?",
+    "request_type": "debt_repayment",
+    "requested_amount": 124278.0,
+    "user_id": "user_250"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-06-06",
+    "request_date": "2025-05-03",
+    "request_id": "request_251",
+    "request_text": "Is it safe to cover the full course fee by the deadline? I need to decide by 6 June 2025. The course fee is EUR 1,513.60.",
+    "request_type": "education",
+    "requested_amount": 1513.6,
+    "user_id": "user_251"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-09-15",
+    "request_date": "2026-07-05",
+    "request_id": "request_252",
+    "request_text": "My family needs a transfer of IDR 28,082,000. Can I make the full transfer without falling short on my own bills?",
+    "request_type": "family_transfer",
+    "requested_amount": 28082000.0,
+    "user_id": "user_252"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-06-01",
+    "request_date": "2024-03-07",
+    "request_id": "request_253",
+    "request_text": "Would paying the full deposit leave enough for my other commitments? I need to pay a EUR 2,840.20 rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 2840.2,
+    "user_id": "user_253"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-10-15",
+    "request_date": "2025-08-04",
+    "request_id": "request_254",
+    "request_text": "The annual membership costs USD 3,535.20. I need to complete it by 15 October 2025. Is the full membership fee affordable today, or should I wait?",
+    "request_type": "other",
+    "requested_amount": 3535.2,
+    "user_id": "user_254"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-06-15",
+    "request_date": "2026-04-06",
+    "request_id": "request_255",
+    "request_text": "How much can I safely send to my family today? I need to decide by 15 June 2026. I need to make a family transfer of IDR 3,345,000.",
+    "request_type": "family_transfer",
+    "requested_amount": 3345000.0,
+    "user_id": "user_255"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-08-19",
+    "request_date": "2024-06-03",
+    "request_id": "request_256",
+    "request_text": "I'm thinking of investing INR 218,700. Is it safer to invest now, invest a smaller amount, or wait?",
+    "request_type": "investment",
+    "requested_amount": 218700.0,
+    "user_id": "user_256"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-01-15",
+    "request_date": "2025-11-05",
+    "request_id": "request_257",
+    "request_text": "Would committing to the membership leave enough for my upcoming bills? I'm considering a yearly membership for USD 1,352.40.",
+    "request_type": "other",
+    "requested_amount": 1352.4,
+    "user_id": "user_257"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-01-22",
+    "request_date": "2026-01-07",
+    "request_id": "request_258",
+    "request_text": "I want to put USD 1,113.60 into an investment. I need to complete it by 22 January 2026. What portion can I invest today without going below my minimum balance?",
+    "request_type": "investment",
+    "requested_amount": 1113.6,
+    "user_id": "user_258"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-04",
+    "request_id": "request_259",
+    "request_text": "Is the full membership fee affordable today, or should I wait? I need to decide by 15 November 2024. The full-year membership is EUR 935.",
+    "request_type": "other",
+    "requested_amount": 935.0,
+    "user_id": "user_259"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-04-18",
+    "request_date": "2025-02-06",
+    "request_id": "request_260",
+    "request_text": "The repair I need is priced at IDR 52,079,000. Should I pay for the repair in full, split the payment, or wait?",
+    "request_type": "emergency_expense",
+    "requested_amount": 52079000.0,
+    "user_id": "user_260"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-09-19",
+    "request_date": "2026-07-03",
+    "request_id": "request_261",
+    "request_text": "Can I pay the rental deposit by the requested date? The landlord has asked for a deposit of EUR 1,830.40.",
+    "request_type": "housing",
+    "requested_amount": 1830.4,
+    "user_id": "user_261"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-01-24",
+    "request_date": "2024-12-05",
+    "request_id": "request_262",
+    "request_text": "The course I want to take is IDR 9,236,000. I need to complete it by 24 January 2025. Can I pay for the course before enrolment closes?",
+    "request_type": "education",
+    "requested_amount": 9236000.0,
+    "user_id": "user_262"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2025-06-15",
+    "request_date": "2025-05-07",
+    "request_id": "request_263",
+    "request_text": "Should I pay for the course now, use installments, or wait? I need to decide by 15 June 2025. I've been quoted ZAR 51,546 for the course.",
+    "request_type": "education",
+    "requested_amount": 51546.0,
+    "user_id": "user_263"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-06-15",
+    "request_date": "2026-04-04",
+    "request_id": "request_264",
+    "request_text": "I've received a repair quote for INR 111,300. Would paying the repair bill today take me below the balance I need to keep?",
+    "request_type": "emergency_expense",
+    "requested_amount": 111300.0,
+    "user_id": "user_264"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2024-03-21",
+    "request_date": "2024-03-06",
+    "request_id": "request_265",
+    "request_text": "How much can I safely send to my family today? I want to send INR 45,970 to my family.",
+    "request_type": "family_transfer",
+    "requested_amount": 45970.0,
+    "user_id": "user_265"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-10-03",
+    "request_date": "2025-08-03",
+    "request_id": "request_266",
+    "request_text": "I'm planning an investment contribution of EUR 935. I need to complete it by 3 October 2025. Is it safer to invest now, invest a smaller amount, or wait?",
+    "request_type": "investment",
+    "requested_amount": 935.0,
+    "user_id": "user_266"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-03-17",
+    "request_date": "2026-01-05",
+    "request_id": "request_267",
+    "request_text": "How much of the rental deposit can I safely pay today? I need to decide by 17 March 2026. I need to pay a EUR 1,925 rental deposit.",
+    "request_type": "housing",
+    "requested_amount": 1925.0,
+    "user_id": "user_267"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-08-15",
+    "request_date": "2024-06-07",
+    "request_id": "request_268",
+    "request_text": "The additional loan payment would be EUR 2,426.60. How much extra can I put toward the loan today?",
+    "request_type": "debt_repayment",
+    "requested_amount": 2426.6,
+    "user_id": "user_268"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-01-02",
+    "request_date": "2025-11-04",
+    "request_id": "request_269",
+    "request_text": "Would sending the money now leave enough for my upcoming expenses? I need to make a family transfer of ZAR 15,490.",
+    "request_type": "family_transfer",
+    "requested_amount": 15490.0,
+    "user_id": "user_269"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2026-08-30",
+    "request_date": "2026-07-06",
+    "request_id": "request_270",
+    "request_text": "I'm thinking of investing USD 3,028.80. I need to complete it by 30 August 2026. How much can I invest now without affecting essential payments?",
+    "request_type": "investment",
+    "requested_amount": 3028.8,
+    "user_id": "user_270"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2024-11-15",
+    "request_date": "2024-09-03",
+    "request_id": "request_271",
+    "request_text": "Does paying for the trip now leave enough for the rest of the month? I need to decide by 15 November 2024. The total trip cost is INR 91,300.",
+    "request_type": "travel",
+    "requested_amount": 91300.0,
+    "user_id": "user_271"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-04-10",
+    "request_date": "2025-02-05",
+    "request_id": "request_272",
+    "request_text": "I have IDR 13,585,000 in mind as an extra loan payment. Can I make the extra loan payment now without affecting essential expenses?",
+    "request_type": "debt_repayment",
+    "requested_amount": 13585000.0,
+    "user_id": "user_272"
+  },
+  {
+    "allows_partial_payment": true,
+    "desired_completion_date": "2026-06-15",
+    "request_date": "2026-04-07",
+    "request_id": "request_273",
+    "request_text": "Should I pay for the course now, use installments, or wait? Enrolment for the course comes to IDR 15,861,000.",
+    "request_type": "education",
+    "requested_amount": 15861000.0,
+    "user_id": "user_273"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-02-11",
+    "request_date": "2024-12-04",
+    "request_id": "request_274",
+    "request_text": "I want to put another EUR 2,713.70 toward my loan. I need to complete it by 11 February 2025. Would paying this much toward the loan leave enough for the rest of the month?",
+    "request_type": "debt_repayment",
+    "requested_amount": 2713.7,
+    "user_id": "user_274"
+  },
+  {
+    "allows_partial_payment": false,
+    "desired_completion_date": "2025-07-22",
+    "request_date": "2025-05-06",
+    "request_id": "request_275",
+    "request_text": "Should I pay for the repair in full, split the payment, or wait? I need to decide by 22 July 2025. I have an unexpected repair bill of IDR 15,884,000.",
+    "request_type": "emergency_expense",
+    "requested_amount": 15884000.0,
+    "user_id": "user_275"
+  }
+]

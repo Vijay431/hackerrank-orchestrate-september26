@@ -1,3 +1,8 @@
 log.txt
 
 .env
+
+**/*/__pycache__/
+# Python virtualenv (local only, never submitted)
+.venv/
+venv/

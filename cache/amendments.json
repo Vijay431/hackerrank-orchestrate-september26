@@ -1,0 +1,52 @@
+{
+ "3c4d7c4451387bb988a022f779e482942a046bbfd41d2e0dec3915cd4b3d95a4": {
+  "confidence": 0.96,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_02",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "7c6630283c0896597b7f17b9cf0539d442b502859bae84821251ec03b2ae0870": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_03",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "b38f6646c44cbf7c17c11259e8e3b8c6c00b315f1829ae8f69eb58c82e43f30a": {
+  "confidence": 0.94,
+  "currency": "EUR",
+  "effective_date": "2025-08-15",
+  "kind": "salary_change",
+  "message_id": "message_10",
+  "new_amount": 2717,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "b66499e848ce43e6a6fdd74a933177152bd3dbe23942a2e2a937e1a433dc99fd": {
+  "confidence": 1.0,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_67",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "cfc0ee47b4d62b69780b5f2755f4ed5a3b82c3dfd63d3677176968d2df7a4d11": {
+  "confidence": 0.99,
+  "currency": "IDR",
+  "effective_date": "2025-08-15",
+  "kind": "salary_change",
+  "message_id": "message_01",
+  "new_amount": 42750000,
+  "pct_change": null,
+  "related_event_id": null
+ }
+}
