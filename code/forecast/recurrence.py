@@ -130,6 +130,90 @@ def _merge_same_day(events: Sequence[Event]) -> tuple[_Occurrence, ...]:
     return tuple(occurrences)
 
 
+# An income series is "confirmed" when at least this share of its settled
+# amounts are identical (a one-off reduced payslip or a raise mid-history
+# still passes; commissions and gig payouts do not).
+INCOME_CONFIRM_SHARE = Decimal("0.5")
+# A payslip described with one of these words ends the income stream.
+FINAL_INCOME_MARKERS = ("final",)
+
+
+def _income_confirmed(settled_amounts: Sequence[Decimal]) -> bool:
+    counts: dict[Decimal, int] = {}
+    for amount in settled_amounts:
+        counts[amount] = counts.get(amount, 0) + 1
+    return Decimal(max(counts.values())) / Decimal(len(settled_amounts)) >= INCOME_CONFIRM_SHARE
+
+
+def _is_final_income(event: Event) -> bool:
+    text = event.description.lower()
+    return any(marker in text for marker in FINAL_INCOME_MARKERS)
+
+
+def _series_from_members(
+    category: str,
+    direction: str,
+    members: Sequence[Event],
+    as_of: date,
+) -> RecurringSeries | None:
+    """Build one series from a candidate group, or ``None`` if the history
+    does not support recurrence (too few rows, irregular gaps, stale)."""
+    ordered = tuple(sorted(members, key=lambda e: (e.settlement_date, e.event_id)))
+    occurrences = _merge_same_day(ordered)
+    if len(occurrences) < MIN_OCCURRENCES:
+        return None
+
+    gaps = [
+        (occurrences[idx].when - occurrences[idx - 1].when).days
+        for idx in range(1, len(occurrences))
+    ]
+    cadence_days = _classify_cadence(gaps)
+    if cadence_days is None:
+        return None
+
+    last_occurrence = occurrences[-1]
+    anchor = last_occurrence.when
+    if (as_of - anchor).days > STALE_FACTOR * cadence_days + 7:
+        return None
+
+    representative = last_occurrence.representative
+    # `amount is None` events were filtered out by the caller, so every
+    # member here has a concrete Decimal amount.
+    amounts = [e.amount for e in ordered if e.amount is not None]
+    is_fixed = all(a == amounts[0] for a in amounts)
+
+    if direction == "credit":
+        # Only confirmed salary may be projected: a stream whose settled
+        # amount keeps moving (commissions, gig payouts, a second household
+        # income) is not confirmed income. A scheduled row may carry a new
+        # amount -- that is a confirmed raise, so it is excluded from the
+        # stability check but wins as the projected amount.
+        settled_amounts = [e.amount for e in ordered if e.status == "settled" and e.amount is not None]
+        if settled_amounts and not _income_confirmed(settled_amounts):
+            return None
+        amount = ordered[-1].amount
+    elif is_fixed:
+        amount = amounts[0]
+    else:
+        amount = variable_basis(amounts[-VARIABLE_LOOKBACK:])
+    if amount is None:
+        return None
+
+    return RecurringSeries(
+        user_id=representative.user_id,
+        category=category,
+        direction=direction,  # type: ignore[arg-type]
+        cadence_days=cadence_days,
+        amount=amount,
+        anchor=anchor,
+        source_event_id=representative.event_id,
+        flexibility=representative.flexibility,
+        minimum_allowed_amount=representative.minimum_allowed_amount,
+        is_fixed=is_fixed,
+        event_ids=tuple(e.event_id for e in ordered),
+    )
+
+
 def detect_recurring(events: Sequence[Event], as_of: date) -> tuple[RecurringSeries, ...]:
     """Infer recurring series from ``events`` as observable on ``as_of``.
 
@@ -154,55 +238,30 @@ def detect_recurring(events: Sequence[Event], as_of: date) -> tuple[RecurringSer
 
     results: list[RecurringSeries] = []
     for (category, direction), members in groups.items():
-        ordered = tuple(
-            sorted(members, key=lambda e: (e.settlement_date, e.event_id))
-        )
-        occurrences = _merge_same_day(ordered)
-        if len(occurrences) < MIN_OCCURRENCES:
-            continue
-
-        gaps = [
-            (occurrences[idx].when - occurrences[idx - 1].when).days
-            for idx in range(1, len(occurrences))
-        ]
-        cadence_days = _classify_cadence(gaps)
-        if cadence_days is None:
-            continue
-
-        last_occurrence = occurrences[-1]
-        anchor = last_occurrence.when
-        if (as_of - anchor).days > STALE_FACTOR * cadence_days + 7:
-            continue
-
-        representative = last_occurrence.representative
-        # `amount is None` events were filtered out above, so every member
-        # here has a concrete Decimal amount.
-        amounts = [e.amount for e in ordered if e.amount is not None]
-        is_fixed = all(a == amounts[0] for a in amounts)
-
         if direction == "credit":
-            amount = ordered[-1].amount
-        elif is_fixed:
-            amount = amounts[0]
-        else:
-            amount = variable_basis(amounts[-VARIABLE_LOOKBACK:])
-        assert amount is not None
-
-        results.append(
-            RecurringSeries(
-                user_id=representative.user_id,
-                category=category,
-                direction=direction,  # type: ignore[arg-type]
-                cadence_days=cadence_days,
-                amount=amount,
-                anchor=anchor,
-                source_event_id=representative.event_id,
-                flexibility=representative.flexibility,
-                minimum_allowed_amount=representative.minimum_allowed_amount,
-                is_fixed=is_fixed,
-                event_ids=tuple(e.event_id for e in ordered),
-            )
-        )
+            latest = max(members, key=lambda e: (e.settlement_date, e.event_id))
+            if _is_final_income(latest):
+                continue
+        series = _series_from_members(category, direction, members, as_of)
+        if series is not None:
+            results.append(series)
+            continue
+        # Salary can arrive as several interleaved streams (base pay on the
+        # 15th, commission on the 24th, ...). Merged they look irregular; each
+        # stream on its own may still be a clean series. Fall back to
+        # per-description sub-groups for income only -- variable debit
+        # categories legitimately span many descriptions and must stay merged.
+        if direction != "credit":
+            continue
+        by_description: dict[str, list[Event]] = {}
+        for event in members:
+            by_description.setdefault(event.description, []).append(event)
+        if len(by_description) < 2:
+            continue
+        for stream in by_description.values():
+            series = _series_from_members(category, direction, stream, as_of)
+            if series is not None:
+                results.append(series)
 
     results.sort(key=lambda s: (s.direction, s.category))
     return tuple(results)

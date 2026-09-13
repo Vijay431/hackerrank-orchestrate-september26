@@ -438,3 +438,97 @@ class RealDatasetTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class InterleavedSalaryStreamsTest(unittest.TestCase):
+    """Base pay on the 15th plus commission on the 24th: merged, the gaps
+    alternate 9/21 days and look irregular; per-description fallback must
+    still recover the base-pay series (and only that one when the second
+    stream is itself irregular)."""
+
+    def _events(self):
+        events = []
+        for i, month in enumerate((1, 2, 3, 4)):
+            events.append(
+                make_event(
+                    f"base_{i}", "salary", "credit", Decimal("23256000"),
+                    date(2025, month, 15), event_type="income",
+                    description="Base salary",
+                )
+            )
+        events.append(
+            make_event(
+                "comm_a", "salary", "credit", Decimal("15989420"),
+                date(2025, 2, 24), event_type="income",
+                description="Performance commission",
+            )
+        )
+        events.append(
+            make_event(
+                "comm_b", "salary", "credit", Decimal("8502888.2"),
+                date(2025, 4, 24), event_type="income",
+                description="Monthly sales commission",
+            )
+        )
+        return events
+
+    def test_base_pay_recovered_from_description_fallback(self):
+        series = detect_recurring(self._events(), as_of=date(2025, 5, 3))
+        salary = [s for s in series if s.category == "salary"]
+        self.assertEqual(len(salary), 1)
+        self.assertEqual(salary[0].amount, Decimal("23256000"))
+        self.assertEqual(salary[0].anchor, date(2025, 4, 15))
+        self.assertEqual(salary[0].cadence_days, CADENCE_MONTHLY)
+        self.assertEqual(salary[0].event_ids, ("base_0", "base_1", "base_2", "base_3"))
+
+    def test_fallback_is_income_only(self):
+        # Same interleaving on a debit category must NOT be split by
+        # description: variable spending legitimately spans many descriptions.
+        events = []
+        for i, month in enumerate((1, 2, 3, 4)):
+            events.append(make_event(f"a_{i}", "dining", "debit", Decimal("100"),
+                                     date(2025, month, 15), description="Lunch"))
+        for i, month in enumerate((2, 4)):
+            events.append(make_event(f"b_{i}", "dining", "debit", Decimal("50"),
+                                     date(2025, month, 24), description="Dinner"))
+        series = detect_recurring(events, as_of=date(2025, 5, 3))
+        self.assertEqual([s for s in series if s.category == "dining"], [])
+
+
+class ConfirmedIncomeTest(unittest.TestCase):
+    def _salary(self, amounts, descriptions=None, last_status="settled"):
+        events = []
+        for i, amt in enumerate(amounts):
+            events.append(
+                make_event(
+                    f"s_{i}", "salary", "credit", Decimal(amt), date(2025, i + 1, 15),
+                    event_type="income",
+                    description=(descriptions[i] if descriptions else "Payroll credit"),
+                    status=last_status if i == len(amounts) - 1 else "settled",
+                )
+            )
+        return events
+
+    def test_variable_income_is_not_projected(self):
+        series = detect_recurring(self._salary(["500", "610", "455", "700"]), as_of=date(2025, 4, 20))
+        self.assertEqual(series, ())
+
+    def test_one_off_reduced_payslip_keeps_series(self):
+        series = detect_recurring(self._salary(["1422.85"] * 4 + ["782.57"]), as_of=date(2025, 5, 20))
+        self.assertEqual(len(series), 1)
+        self.assertEqual(series[0].amount, Decimal("782.57"))
+
+    def test_scheduled_raise_wins_and_does_not_break_confirmation(self):
+        series = detect_recurring(
+            self._salary(["12826", "23320"], last_status="scheduled"), as_of=date(2025, 2, 3)
+        )
+        self.assertEqual(len(series), 1)
+        self.assertEqual(series[0].amount, Decimal("23320"))
+        self.assertEqual(series[0].anchor, date(2025, 2, 15))
+
+    def test_final_payslip_ends_income(self):
+        events = self._salary(
+            ["14740"] * 4,
+            descriptions=["Payroll credit"] * 3 + ["Final employer payroll"],
+        )
+        self.assertEqual(detect_recurring(events, as_of=date(2025, 4, 20)), ())

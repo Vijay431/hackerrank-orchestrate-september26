@@ -9,3 +9,4 @@ venv/
 
 # SDD scratch (ledgers, briefs, review packages)
 .superpowers/
+.claude/worktrees/
