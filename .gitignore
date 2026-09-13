@@ -6,3 +6,6 @@ log.txt
 # Python virtualenv (local only, never submitted)
 .venv/
 venv/
+
+# SDD scratch (ledgers, briefs, review packages)
+.superpowers/
