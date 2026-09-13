@@ -1,9 +1,51 @@
 {
+ "12e438ab3dddd1f27de18543fb72a19e9ff355de1f62ffec1c5fa1c5de13710e": {
+  "amount": 1995.0,
+  "confidence": 1.0,
+  "currency": "INR",
+  "image_id": "image_06"
+ },
+ "2b21570a210363e81526ab04b51468d564e0d7639ce847a6d537dcaf347f18e3": {
+  "amount": 9968.0,
+  "confidence": 0.99,
+  "currency": "INR",
+  "image_id": "image_15"
+ },
+ "4ca6244b9cca759f42065615b2463ff10c9f882de9c769c2f28c6b3f889a48e2": {
+  "amount": 393.22,
+  "confidence": 0.99,
+  "currency": "INR",
+  "image_id": "image_16"
+ },
  "63888f8244a48ed606626afd19dfe18e41335e9a7d5a4aab05c564b551aee543": {
   "amount": 704.05,
   "confidence": 1.0,
   "currency": "INR",
   "image_id": "image_05"
+ },
+ "725a10d9c1b986f4007c1ccdfd51684722fd4bcb620f108ce73d6d7e8fe12c04": {
+  "amount": 723.0,
+  "confidence": 1.0,
+  "currency": "INR",
+  "image_id": "image_09"
+ },
+ "8e1830bd01eb5727b69b93d26d2ddc1984f18b9c6d4ac1151829bf1eeb2d518f": {
+  "amount": 4543.0,
+  "confidence": 0.93,
+  "currency": "INR",
+  "image_id": "image_14"
+ },
+ "8f796fcd58f17853e9e08f67bd84edc5a7a58a796a6c1d90eaa1825968ef1909": {
+  "amount": 3650.0,
+  "confidence": 0.98,
+  "currency": "INR",
+  "image_id": "image_11"
+ },
+ "9c6387d056280f7cc16fe154034167acf49279bf4386d8bc4b920090fc5e46e9": {
+  "amount": 8528.1,
+  "confidence": 0.98,
+  "currency": "INR",
+  "image_id": "image_07"
  },
  "a4fd5eb47799a25633a998e9a5dde0f74f216791e13bab7d6e07010d1236f9a7": {
   "amount": 2854.0,
@@ -22,6 +64,30 @@
   "confidence": 0.99,
   "currency": "INR",
   "image_id": "image_03"
+ },
+ "ba78ab86cfb2b8f04064d8182b9fc56ef61b0a1487a8da03a3f272d9bd591f19": {
+  "amount": 2298,
+  "confidence": 1.0,
+  "currency": "INR",
+  "image_id": "image_13"
+ },
+ "cd206835a3bf8bf05f4458e5981aa894bcd214ad88ea454839e6f67d597aacc7": {
+  "amount": 15339.0,
+  "confidence": 1.0,
+  "currency": "INR",
+  "image_id": "image_08"
+ },
+ "e4948b0b6ac3da99d4f247526897580fd1f4a870acb55534b0871504df7840ff": {
+  "amount": 79679.26,
+  "confidence": 0.99,
+  "currency": "INR",
+  "image_id": "image_10"
+ },
+ "f7e761c21f52922ae849c42f7c741723150db73733b1301b4097ea8838da34e1": {
+  "amount": 33.5,
+  "confidence": 0.99,
+  "currency": "USD",
+  "image_id": "image_12"
  },
  "fdd5acb8ca9f5a843a1486f6a14c958c0b7bcb341a098a7edd76652fcb5e7c22": {
   "amount": 4365000,

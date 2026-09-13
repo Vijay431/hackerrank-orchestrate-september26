@@ -1,10 +1,210 @@
 {
+ "00f31ff2454f65f58486f25bf5a57607138a7052b1d2e3c464f0c8ad88561de6": {
+  "confidence": 0.98,
+  "currency": "USD",
+  "effective_date": "2025-05-15",
+  "kind": "salary_change",
+  "message_id": "message_53",
+  "new_amount": 696,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "01422736ad5567cbea4078bdf0f964d98c899552bb88dee860cc1780484bac33": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_144",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "040c3d7f78726c6f6db0fbf6964b7a5bf10ad737e299c9ccc2c78f7dbbca7650": {
+  "confidence": 0.98,
+  "currency": "ZAR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_70",
+  "new_amount": 49280,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "0531e0dd905d740fa1c05264cc38dd7baf326c0236f535029f0aaf68863e0057": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": "2025-02-23",
+  "kind": "salary_date_change",
+  "message_id": "message_50",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "05c99d36356670e6118955aa1dfb0500a50989eedb90d29c799e66ca54758c89": {
+  "confidence": 0.99,
+  "currency": "USD",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_169",
+  "new_amount": 2424,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "0741499759d1f56419e41a76e2b8b464894ae210a6542c5abc5e5f30d42297d2": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": "2024-06-15",
+  "kind": "salary_change",
+  "message_id": "message_85",
+  "new_amount": 627,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "0d16e30038d3982f8fe45573c700294117555fe95d6816efb3130b2a69540b62": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_59",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_7186"
+ },
+ "0e23dfaf6fe4971c974f8191f24688b946881261d10c2c7a28557d3ad118f278": {
+  "confidence": 0.87,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_46",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "0e98cea5992dce74217b8a5310806651cca07f38ad7d53bc35680248dea1abac": {
+  "confidence": 0.99,
+  "currency": "EUR",
+  "effective_date": "2024-12-15",
+  "kind": "salary_change",
+  "message_id": "message_80",
+  "new_amount": 1815,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "0f47eb0e0e4136aff2639246c0832731d9dcf2c534c4664bf4e8dc258f425b16": {
+  "confidence": 0.99,
+  "currency": "INR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_112",
+  "new_amount": 258000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "11abffea1ff298542210f413a46a9c3ae7fb934f26aa9c934efdda20cd396c86": {
+  "confidence": 0.99,
+  "currency": "EUR",
+  "effective_date": "2024-06-15",
+  "kind": "salary_change",
+  "message_id": "message_181",
+  "new_amount": 2772,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "122da88b3ca4533bf926b8d842a0a2dedf651cc3a52cb8b5ba04ea2395d2f5c3": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_94",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "1377fc61c6570e9a4c80c8b9ac2c6b3a4cda49728511733c10e92e02bdb17df8": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": "2025-05-15",
+  "kind": "salary_change",
+  "message_id": "message_81",
+  "new_amount": 2123,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "1570f84991638976d6b0200922178bba3b1c3c9c5beb7b5e5fb06ea6ea1f307a": {
+  "confidence": 0.82,
+  "currency": "INR",
+  "effective_date": "2024-12-15",
+  "kind": "expense_change",
+  "message_id": "message_24",
+  "new_amount": 196000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "18390ec6f66cefecd31d7a44acd46db95d07a428c96453ebcb0d628e26b40f01": {
+  "confidence": 0.96,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_65",
+  "new_amount": 8618400,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "18882a6a363b2e614bcaa058d5662c568d0d30b41a8fc5e7d06fea716a8d62d8": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_43",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "191d5f221273ee789ab37e76616709d171a8029da52c90a2caa8884b606b9d49": {
+  "confidence": 0.96,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_198",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_23306"
+ },
  "1ae98db64c6d253f5e6e8a0458b36a59c12003ef33dac9566261d04b499d211d": {
   "confidence": 0.98,
   "currency": null,
   "effective_date": null,
   "kind": "no_op",
   "message_id": "message_13",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "1b5920a2fed3da8f195ba4fe8aa86f82f2071dac09e71073b35786e9887eb960": {
+  "confidence": 0.99,
+  "currency": "INR",
+  "effective_date": "2026-01-15",
+  "kind": "salary_change",
+  "message_id": "message_66",
+  "new_amount": 251000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "1b974aca794305373f126e9e447440fae59660e692a5f1d11a8298d2484121e5": {
+  "confidence": 0.99,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_102",
+  "new_amount": 1193.4,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "1efe13257291f90ae18affce13916c05b65a5e7553b7a26ab8a8440228941d74": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_134",
   "new_amount": null,
   "pct_change": null,
   "related_event_id": null
@@ -29,6 +229,146 @@
   "pct_change": null,
   "related_event_id": null
  },
+ "246cf7fa04078c4bd757e4122e3f7c8e66fdbcc21359cc08a88a0da7163eff92": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": "2025-05-15",
+  "kind": "salary_change",
+  "message_id": "message_91",
+  "new_amount": 176000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "27f2279d5fc3ee5f0faefa3dfa1b2e6588124b8929f29a308e0f609846432ef4": {
+  "confidence": 0.96,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_171",
+  "new_amount": 1346.4,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "282d0548823674ca92a3a59c3271ab0af6247b9fd6ffc07a18262bd42d4edfaa": {
+  "confidence": 0.93,
+  "currency": "USD",
+  "effective_date": "2025-11-15",
+  "kind": "salary_change",
+  "message_id": "message_191",
+  "new_amount": 1680,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "2887d2f0ea93b041253aee6017f1c408833db1468a98ae20efd03cb44c0f7ce4": {
+  "confidence": 0.93,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_35",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_4535"
+ },
+ "28ce590da898e586a730fd866e17a1ca1012b13249aa8ff73a6793fa382a5f09": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_99",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_11925"
+ },
+ "2a0792da0ca0e746f1e8c435c5510ca2bdbfe89a11868608558bdecf2dd3bffd": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_202",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "2b4430d7d4d96e8f1076f36130a25058128382ab37e0a9a957d1eb14c3cf435f": {
+  "confidence": 0.93,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_173",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "2cc37d37e30ef68cdee95d328459d7e9707194539eb81f927b98fc5b8b0b8bd6": {
+  "confidence": 0.93,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_18",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "2da750f7ee48d21ce10c8fec8feef3bf8951283ca461487b491f20d34ea3b59a": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_110",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_13207"
+ },
+ "2ebf9a5923f32774d437d30c1450736df4e53f0e5062f38ef31a3251b2a6f513": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "dispute",
+  "message_id": "message_157",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_18269"
+ },
+ "307fe5fae1f57318695b8a062d538b9c4e59b72891fac81e3bb02f50eeaa78c8": {
+  "confidence": 0.91,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_76",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "3584ab8617490bc238910bce8de28b7dc2c99dc8caf426aed355cc7c1ff97f20": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_87",
+  "new_amount": 148200,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "36b64b8361dc16ca1fc131c8c15473418e0a1b7c86f32b14fcf22992952ec0d6": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_133",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "384982c86f9640375c211a3f65c0a134e789e39394267f187a189da635a0317b": {
+  "confidence": 0.98,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_42",
+  "new_amount": 25840000,
+  "pct_change": null,
+  "related_event_id": null
+ },
  "3c4d7c4451387bb988a022f779e482942a046bbfd41d2e0dec3915cd4b3d95a4": {
   "confidence": 0.96,
   "currency": null,
@@ -36,6 +376,86 @@
   "kind": "no_op",
   "message_id": "message_02",
   "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "3c4df22978d5ebfb31c6d3bfd92901cb35c6724648f74b3c12aee9ef876594a2": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": "2025-08-23",
+  "kind": "salary_date_change",
+  "message_id": "message_154",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "3e8fdaf2d6c50918ecb8b31d2d33551c8ae9f1503a1565ffc474813bb0cb874e": {
+  "confidence": 0.94,
+  "currency": "IDR",
+  "effective_date": "2025-11-15",
+  "kind": "salary_change",
+  "message_id": "message_156",
+  "new_amount": 38190000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "3fab7607d6311364d140827a4265e5ae785b20b691dc03bcaaa3d030b510d58e": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_123",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "3fdf0a7c8eb2727b5e2f6d160ba03886f47f1cdcaa8940b66e5620c232ffa5aa": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_189",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "3fe3b0036b7f50e1720dab52709b73bf5158b6647b79d0c349d1f3d043d12956": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_139",
+  "new_amount": 847,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "40a2bbc632fa1f4c3411472e1dae3728332f15ce16e8b0987c0d2204994ee3b5": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_177",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "4350134b8f1c8ae4f1e8b419bd724660f949ed1bf06ca08bab9d6e37c9864b9d": {
+  "confidence": 0.96,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_114",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_13663"
+ },
+ "439f424bdc5eba9ed342ed17731d08fd969f30e146705e41cbbd67ce5f73352e": {
+  "confidence": 0.98,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_187",
+  "new_amount": 912,
   "pct_change": null,
   "related_event_id": null
  },
@@ -49,12 +469,202 @@
   "pct_change": null,
   "related_event_id": null
  },
+ "450d0ff6c41cc37d6345082a401692df31dc2438a5e667f4685c32b96b3e7a54": {
+  "confidence": 0.99,
+  "currency": "IDR",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_33",
+  "new_amount": 17290000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "465980f4d93c4c425fc1a303d9346f90089a7aa5713a6c7a42446a7e577023e6": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_103",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "46903a3158d6258021b6ea92771e7d932b228836a8f1849b4cbc0a78829033fa": {
+  "confidence": 0.9,
+  "currency": "ZAR",
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_56",
+  "new_amount": 26180,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "4abf5c29fefa2101dbc7f2ad8bc2f7ece0aa74ee6c125a6c799a042abaf7a018": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_146",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "4b33317c1a7ab742bfd4b10749e5e0a7238a27b7a545eebe296c2da1b27a8c7c": {
+  "confidence": 0.97,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_119",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "4c0d7b43c4d466ffd57e5c565b159a381327dc646e247fe82987dc08f296421b": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_60",
+  "new_amount": 158000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "4c25ddd8caca812eaf9a2af67f74043a4007d8463ab1766957dd52d49394beb2": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_48",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "4ede8af9e405b83adcd780750636a1a1773ae6c5e64312ce088c99bdac547468": {
+  "confidence": 0.99,
+  "currency": "ZAR",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_40",
+  "new_amount": 42460,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "4f00120c50eeac6b08a7f8caa489d2130f352e8117e1799d0d760fca4a99cafc": {
+  "confidence": 0.99,
+  "currency": "IDR",
+  "effective_date": "2024-09-15",
+  "kind": "salary_change",
+  "message_id": "message_116",
+  "new_amount": 46170000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "4fb056f129744b5f2c3e229ce544d11f04a3320315bfaab9ca792142d83632b3": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_71",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "50edef219d20457c9d5fafca35d738c19432e83c58d0c297b5ef7b2ead7d4582": {
+  "confidence": 0.94,
+  "currency": "EUR",
+  "effective_date": "2026-04-15",
+  "kind": "salary_change",
+  "message_id": "message_170",
+  "new_amount": 1914,
+  "pct_change": null,
+  "related_event_id": null
+ },
  "50fa2ac8738aeb0cfe1243d8045e69a30464de016da081038184f04a9974a0ca": {
   "confidence": 0.99,
   "currency": null,
   "effective_date": null,
   "kind": "ignore",
   "message_id": "message_16",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "518b5703cd9ba1620ffe0e19c4eb046f2397c0f93fcfb7eb6b0f3f728bff16e0": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_212",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "52868f27e20175c7cb9fd79f258b2bfe37e6e0ee4899faa1b337a218c9b89c93": {
+  "confidence": 0.99,
+  "currency": "ZAR",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_54",
+  "new_amount": 18700,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "557ab66156480200f96119499e1df9f2e61870a345abe1c84fca4ae5fe91aaeb": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_129",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "55917b012a6c7ae7ce76faaaf5c4c6f1716ca10e553ecaec2ce45c763ad2e508": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_207",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_24534"
+ },
+ "578cf87d54b656b1c6f8d22d1db4e7b087e3e021f56a373957651bb4c8dcabee": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": "2025-05-15",
+  "kind": "salary_change",
+  "message_id": "message_204",
+  "new_amount": 1485,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "57b5f6c7b2c9485f2f7d08870fc4634d875f0f007f340457dc32a4c596576fd9": {
+  "confidence": 0.98,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_203",
+  "new_amount": 48260000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "57bb185b863af75a2cf6d658fde589ab7b375b6054ef28f0094897d9a40c352d": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": "2025-08-15",
+  "kind": "salary_change",
+  "message_id": "message_74",
+  "new_amount": 1804,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "57ee7167c5ace1c2b56b23157e969882ab6826275f152b7d9c02bc8dabf81746": {
+  "confidence": 0.93,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_109",
   "new_amount": null,
   "pct_change": null,
   "related_event_id": null
@@ -69,6 +679,76 @@
   "pct_change": null,
   "related_event_id": null
  },
+ "589a2248e795f0a4cc151a3b535dcdee619fc8a9b4911c4796270bffb0d6fffa": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "dispute",
+  "message_id": "message_183",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_21582"
+ },
+ "5a468980ee3a4353942d814483af7d87158b80f53c69bfe7a5725f839eca9ce5": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_75",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_9420"
+ },
+ "5a6ce170209eb39c0c828490d53522739284aa47e778bd3750fce9870099192f": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_186",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "5a8770af01492bad44b2e32f46e837133dfd305897c5f45c09d629c1af03be41": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_23",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "5ca9d76b8242fa656fd3cba41b89e9811466a4a6ab9ef0552b38c0728da84166": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_145",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "5f27a8147da8665e0a31621dcf7486bb691d28cb550e077313391d0a88eb2112": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_185",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_21785"
+ },
+ "6180ca0fb45683196786f20c9689de27cff4c79db30231ed5ba4a4bd7b0c0942": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_213",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
  "628f3c0726962c51cb29ac934c1ee16cda8d411cc7aa4998775a60f44e1b33c4": {
   "confidence": 0.98,
   "currency": null,
@@ -79,6 +759,176 @@
   "pct_change": 12,
   "related_event_id": null
  },
+ "62dd2b05b01cf2e54bddb0802f8acc4084453cdebe46ba146ef97b8e15c332fd": {
+  "confidence": 0.96,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_88",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_10699"
+ },
+ "6378dc2fbfbc8841ea81ec93ba750eda06b46f47ff94f820a036656681b2a160": {
+  "confidence": 0.98,
+  "currency": "USD",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_111",
+  "new_amount": 864,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "6381fc61855ce9c1d6aa4b0bdd4ad6d0d998dfeb817435d924af47f369f62449": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_47",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "66c9be5f917bd66c4d9d8e68f145385d225a55386374219b3375ac33bfd4cf3e": {
+  "confidence": 0.96,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_108",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_13032"
+ },
+ "6789d0fe04a6bb076519811cd4f447841db6f4f3ac1dd980bdbbc7c8aec16cf4": {
+  "confidence": 0.97,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_64",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_7941"
+ },
+ "67d391b726ff440acaa47de6df4b5cdee9b89aec3fcbe2eafd9a26ade9f71157": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_166",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "68384b32faf9bff8d200cf2f6727d90025ccf2cab27a7760498046121f3d789a": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": "2026-01-15",
+  "kind": "salary_change",
+  "message_id": "message_188",
+  "new_amount": 62000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "6840850fe62d220b378fdd69aed3e1d80841476709b8245749d65dca12752434": {
+  "confidence": 0.99,
+  "currency": "INR",
+  "effective_date": "2024-09-15",
+  "kind": "salary_change",
+  "message_id": "message_149",
+  "new_amount": 145000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "6baaff77581f2884d19f0d91f5f04d79127d8a333937cbbddf55973f39b550e1": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_37",
+  "new_amount": 126000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "6bc2ebcf587604138a4056a227155f642953ebe5acff80ed47617d56537862fb": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_84",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "6c80206e7effd09d3a5b981ee97e12a266731ff6746344f9d949480e71df8438": {
+  "confidence": 0.98,
+  "currency": "ZAR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_78",
+  "new_amount": 35860,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "6e0b62c3f3033877c8b069711f6e98f9e4dca6ec4a4c519ea89b941bd1c42624": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_57",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "6e0e78dbdf21bbb02598ecbc2608776392babfc67c0164d56144f05cabaccefd": {
+  "confidence": 0.96,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_205",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_24352"
+ },
+ "6f43f875093e5bce0c4cc386c044e5984ef48c6500cbe91667cd1f2323f7150b": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_208",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "6fb2c79ffb955105c4454e92aabb41c97ffe94f7fda40f9ce86fa98bc46b190a": {
+  "confidence": 0.93,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_93",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "7090d9236ab022a277375ea361fc6ae08a5ab8195afc8c9497236cd7795679db": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "dispute",
+  "message_id": "message_121",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_14399"
+ },
+ "71d27e0508e385bc8d79430dbdcb8bba61071f7a503a37a8d941ecd4f0cfbcfa": {
+  "confidence": 0.93,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_130",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
  "7268b89801bec5894c0cb4765f6c75a42ee95b19225efa16d570a1cc03bb13b9": {
   "confidence": 0.99,
   "currency": null,
@@ -86,6 +936,56 @@
   "kind": "salary_end",
   "message_id": "message_09",
   "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "726ea1765868953ba58c919a514796e9eaaadb523cd36b9d58dbd58a9dfa797a": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_152",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_17662"
+ },
+ "73086690f9d47b6fe2dd11feead572571f5c491284afa7d0a27034004c4ace08": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_45",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "74587143a1b8aa4eb53f452bcc17e8aa0c5e06aa050c2774808d17d07d100d0a": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_52",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_6532"
+ },
+ "76ffec87eede7aa8b2c1be5f1cacaf4cce7dd485ab42f727cef4c6a524493d22": {
+  "confidence": 0.99,
+  "currency": "USD",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_104",
+  "new_amount": 828,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "775add0c84010a97b803f4b4b889d033b1c2a83e48b83d0a05169c5033c3f6a1": {
+  "confidence": 0.98,
+  "currency": "ZAR",
+  "effective_date": "2025-11-15",
+  "kind": "salary_change",
+  "message_id": "message_210",
+  "new_amount": 38280,
   "pct_change": null,
   "related_event_id": null
  },
@@ -99,6 +999,56 @@
   "pct_change": null,
   "related_event_id": null
  },
+ "78152c02ca31e3ffc103ecc00c92a9ec96a795980abfce19c64a0cca246188d6": {
+  "confidence": 0.98,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_62",
+  "new_amount": 1752,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "7a161d40ef6af02bda9ac4a025aaedf888260e22aff8ed5dcc1c5f8d052b0702": {
+  "confidence": 0.98,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_44",
+  "new_amount": 530.4,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "7abab8a18d138c469bfe4b41263068672b5d86afea648636da895517c74648ca": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_118",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "7bd48dde6551d6827859fe2807d22682ce3ccf9bf8752e2685a6be8021854d0e": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_98",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "7c1dbf0a3860467586e6cf6a58c98a49c22029ef460fabb27b8ca9b154333c75": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_55",
+  "new_amount": null,
+  "pct_change": 12,
+  "related_event_id": null
+ },
  "7c6630283c0896597b7f17b9cf0539d442b502859bae84821251ec03b2ae0870": {
   "confidence": 0.99,
   "currency": null,
@@ -109,6 +1059,216 @@
   "pct_change": null,
   "related_event_id": null
  },
+ "7dabc02f01fad5dddda6c827b19325fc1c00ddfdd91d70abec9d0386c56f966f": {
+  "confidence": 0.98,
+  "currency": "IDR",
+  "effective_date": "2025-11-15",
+  "kind": "salary_change",
+  "message_id": "message_182",
+  "new_amount": 16910000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "7e196c50f8b5f64f7d3abb14f04ae3a58c2a3599b2d97e72a3892921722e089d": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_135",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "7f3bb2635cb71bff0dffc3fa57916128b8c067d98de9380bf977ef794aafb179": {
+  "confidence": 0.93,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_174",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_20615"
+ },
+ "807c89438cf2a02b3e55eefea244125966852ec3242a705833510d61b64f8192": {
+  "confidence": 0.99,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_195",
+  "new_amount": 702,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "8081afff0052abba7a882b305c02f40c929c251f4c90f41cc809593049cfed4c": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_184",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "8149ed79e234c96540b6857a36a20b425acfeda4612b7406d8f664b070507279": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": "2024-06-15",
+  "kind": "salary_change",
+  "message_id": "message_29",
+  "new_amount": 1760,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "85ab169eea73480ca0f2bd94e56c47db0b9c6b72969c70270a4f4fc23b27175b": {
+  "confidence": 0.94,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_141",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "893e06d9a95e6cf8aec3edf460003c6af143fdb03e1bdc1eeebae9f38959c9fa": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_209",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "8b3f2e8ac88824ffd1051cd5ec2a3072da071cc2c69ae7f47827d56e47fe89be": {
+  "confidence": 0.99,
+  "currency": "EUR",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_89",
+  "new_amount": 1188,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "8b8689f19a11a217e11e34a4f99b104587f743fec7e3f00d7e2b058889541886": {
+  "confidence": 0.99,
+  "currency": "IDR",
+  "effective_date": "2024-09-15",
+  "kind": "salary_change",
+  "message_id": "message_31",
+  "new_amount": 32870000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "8db73ca44aed6cda859e2988fafb42e1a70054c2574bd0d7681fe235bc887257": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": "2025-05-23",
+  "kind": "salary_date_change",
+  "message_id": "message_101",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "8e52146f86f0084853f48d5ddbda0dfba1c6f93b2bf0c9c18faa4bf8624abd9a": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_25",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_3230"
+ },
+ "8f27f20c8659a7773a441507a265e6985dbb957cf24fcfb70891a4df296a9513": {
+  "confidence": 0.9,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_49",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "90842139f551ba03e98f27c02648fc387e6d908899a2bf358af5dc05b30bf623": {
+  "confidence": 0.97,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_140",
+  "new_amount": 1731.6,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "9320654c20578ef1fa8b1ebfc6603ff357430574a38dc715b8597bab61f21c92": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_206",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "9540db5ef43349c028315a8951987b91f413c90eab188375e1a94094f33aa9c1": {
+  "confidence": 0.99,
+  "currency": "IDR",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_126",
+  "new_amount": 29070000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "980bf61d8ee666d2243b5f8a01c2987f0988c38dbf47909c033cf36fb283a2f1": {
+  "confidence": 0.99,
+  "currency": "EUR",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_151",
+  "new_amount": 627,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "985f67515256c9f449953546d847ccfd1d7355c7b7b3fbc6d59f7f704f225462": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_192",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "98a77b8dea756e93de5fcb3a09bd6bfc5e537486b799adc3e37864b49b0016e3": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": "2025-05-23",
+  "kind": "salary_date_change",
+  "message_id": "message_73",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "99251f6010a69e47d332a6e1a7245714b8d17c452bee86164872065040ed6375": {
+  "confidence": 0.99,
+  "currency": "INR",
+  "effective_date": "2024-06-15",
+  "kind": "salary_change",
+  "message_id": "message_200",
+  "new_amount": 214000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "999e54a36a004546bafcb6b56c857b9e0462b556c6161e3be8d8bbaf3d02dec9": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_147",
+  "new_amount": null,
+  "pct_change": 12,
+  "related_event_id": null
+ },
  "99e8a5299be83dd430999a31fbf9b9174c0c8940450e9467c41745502bf10e53": {
   "confidence": 0.98,
   "currency": "IDR",
@@ -116,6 +1276,96 @@
   "kind": "salary_change",
   "message_id": "message_08",
   "new_amount": 38760000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "9a584f8badd190a6ce54502a74052532ada581f3cf4c8f44138979fcc1caf091": {
+  "confidence": 0.96,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_100",
+  "new_amount": 2177.28,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "9a6b1a5cfc6a1f40b7f12d365249b849404f8be10ef907746ec81fef3c17747a": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_19",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "9de9d58efce228a9328f6d8f002c8e655fb1a331c328acd5c642d28e0525872a": {
+  "confidence": 0.94,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_69",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_8575"
+ },
+ "9df242a1c305dc64d8168868053610d822fa7074e35cd4a752095f5f5d9240fb": {
+  "confidence": 0.96,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_115",
+  "new_amount": 893.75,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "9f6b8d42f0b1d1f9e33a85eb5ea4b97f909cb2a47a77a284f418263753266d91": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_158",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "a035719495776f238657d3f68fadf3029db7cfb8b14aeb3c8813aeb7a2f57d11": {
+  "confidence": 0.96,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_58",
+  "new_amount": 3072,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "a097c9203944d21ac16f4bb6afaa830360a11892d7789bc3acb1b47d6398ee85": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_51",
+  "new_amount": null,
+  "pct_change": 12,
+  "related_event_id": null
+ },
+ "a3519dce8097abadc2d698832db27ae989d41626571263d138d33563e3bb65ad": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_199",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "a411f0b048bfb24520d6af238360fd2d820c44b47ac98a269a4eeb157a7d5b0c": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_161",
+  "new_amount": null,
   "pct_change": null,
   "related_event_id": null
  },
@@ -129,6 +1379,56 @@
   "pct_change": null,
   "related_event_id": null
  },
+ "aacc6155333c5745acd9baba20dc2e532c736b119f3b91176f2a3ad4b7b74cdf": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_61",
+  "new_amount": null,
+  "pct_change": 12,
+  "related_event_id": null
+ },
+ "ab036630cf988d0c8e439bb47de386b77b3863f4bc0ab1540448ad51309d945f": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_175",
+  "new_amount": null,
+  "pct_change": 12,
+  "related_event_id": null
+ },
+ "ab286174d317a99c035f5bf9e4643d62139e62c8c0d35ffd17b3e6249350c73c": {
+  "confidence": 0.98,
+  "currency": "USD",
+  "effective_date": "2025-11-15",
+  "kind": "salary_change",
+  "message_id": "message_137",
+  "new_amount": 1284,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "ac672ff5d1d059d719a156b1c5d904a25d5e3f38aadcfde5aebf0e9f2b2a274c": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": "2024-06-15",
+  "kind": "salary_change",
+  "message_id": "message_124",
+  "new_amount": 1672,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "acbb8b85bcab5b5a10ec471e64c6b352931815d2a0ce88ed28cd4e09d01df46c": {
+  "confidence": 0.99,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_128",
+  "new_amount": 44270000,
+  "pct_change": null,
+  "related_event_id": null
+ },
  "ad6955f532432bba472c5d6cc224e189c6188ca24e3df44c304dd24313eeac92": {
   "confidence": 0.98,
   "currency": null,
@@ -139,6 +1439,46 @@
   "pct_change": null,
   "related_event_id": "event_1960"
  },
+ "ada1c9cb09927a785e2b7a44fa04dae6bd705a4f346e000e63a8b8659e2aec50": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": "2025-11-15",
+  "kind": "salary_change",
+  "message_id": "message_95",
+  "new_amount": 748,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "ae538a8c36242591eba85ce8f72485c330ec57cb2cc6683ed7946d9e7aa56256": {
+  "confidence": 0.96,
+  "currency": "INR",
+  "effective_date": "2025-05-15",
+  "kind": "salary_change",
+  "message_id": "message_120",
+  "new_amount": 84000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "aebfe21b91a942b99d378686cf7f325cc9e0aca0d45f8e4a2291a508afa9ce08": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_214",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "b1028f741fbb80764272d5b5b01656af010d9e9850d984428f832c1ee151916a": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_28",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_3491"
+ },
  "b38f6646c44cbf7c17c11259e8e3b8c6c00b315f1829ae8f69eb58c82e43f30a": {
   "confidence": 0.94,
   "currency": "EUR",
@@ -146,6 +1486,36 @@
   "kind": "salary_change",
   "message_id": "message_10",
   "new_amount": 2717,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "b477a77be0291128d458f1958ff4e3ff69f5f5508b0bf566ff0171758a61fc43": {
+  "confidence": 0.93,
+  "currency": "EUR",
+  "effective_date": "2025-08-15",
+  "kind": "salary_change",
+  "message_id": "message_190",
+  "new_amount": 968,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "b47c74ea18502eb9b50dd5ada6cce56b70eb241b745517cf53b2bb525c499d44": {
+  "confidence": 0.99,
+  "currency": "ZAR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_148",
+  "new_amount": 31889,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "b603d004603b73634a17b3bbf06ba78ae8b64ff579e88924f1c94418767d8ada": {
+  "confidence": 0.95,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_72",
+  "new_amount": null,
   "pct_change": null,
   "related_event_id": null
  },
@@ -159,6 +1529,36 @@
   "pct_change": null,
   "related_event_id": null
  },
+ "b7d7914427171fa26623dda463adc0217cf1af261af6b612ffab5547262ce661": {
+  "confidence": 0.99,
+  "currency": "ZAR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_82",
+  "new_amount": 33440,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "b85adcf81d442482c6a86431d2b10327f0dd6d0ef791aecbf101cd5b145087df": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": "2025-02-23",
+  "kind": "salary_date_change",
+  "message_id": "message_165",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "b92b698f60a040c0863dba753ed315cca3d316c4bf9909e309cb41168e5c3024": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_155",
+  "new_amount": 1222.65,
+  "pct_change": null,
+  "related_event_id": null
+ },
  "bb2895196336398867e864fbbdc5ba3c9b2e2759caff2083ccdce34df81e7e56": {
   "confidence": 0.95,
   "currency": null,
@@ -169,6 +1569,186 @@
   "pct_change": null,
   "related_event_id": "event_2165"
  },
+ "bb5131e4cf417341ed3aa4ae944fb9d1354c55bb76d65fced6d6fe07412aba38": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_168",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "bb6643f244dd7f25eb84d44e3e0784ae45aeef6e2ebb93d56b367d0efbb72da7": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_79",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_9805"
+ },
+ "bbe8f9620532dbe986c9017fe17b9d376774fc08d08b25c80bb6390a3defdee4": {
+  "confidence": 0.99,
+  "currency": "ZAR",
+  "effective_date": "2025-02-15",
+  "kind": "salary_change",
+  "message_id": "message_22",
+  "new_amount": 54120,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "bf9275165f836d8768bb9fa15693a1c679c1a61a37034ffffbd99249c926a693": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": "2025-05-23",
+  "kind": "salary_date_change",
+  "message_id": "message_131",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "bfcb42ddcbfc37bbe7bca73c5c2bc0ba2431f961466013816f2c7d325e7408af": {
+  "confidence": 0.99,
+  "currency": "USD",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_26",
+  "new_amount": 2988,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "c0701f84997a3646de3b2cfc9b6caaa66d7f62476f89efa3cf00282af4eb97f9": {
+  "confidence": 0.94,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_179",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_21101"
+ },
+ "c2d5876a1dcac259d016814a384f381d815456112cdd3ee31405f88dc4781962": {
+  "confidence": 0.97,
+  "currency": "INR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_77",
+  "new_amount": 164880,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "c31834b1468e83f69db64bfcd08c6277cf848c6e10b3b3b34749328218a14c9f": {
+  "confidence": 0.99,
+  "currency": "ZAR",
+  "effective_date": "2024-12-15",
+  "kind": "salary_change",
+  "message_id": "message_196",
+  "new_amount": 53680,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "c3a4dffbeba25c327ce5b2383f525af5b1c640efa7f1d13e4d3f82c0f66a2a2c": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "dispute",
+  "message_id": "message_106",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_12709"
+ },
+ "c49fc15f6d76f4d69502c9070cc1caa69193a775af0d7db720599a9b24dd2b1a": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_215",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_25342"
+ },
+ "c9262fd1f5fbfe97a15e87c2a7bacd577b1948904984f2dfbe8a4397e83badc8": {
+  "confidence": 0.96,
+  "currency": "IDR",
+  "effective_date": "2026-04-15",
+  "kind": "salary_change",
+  "message_id": "message_178",
+  "new_amount": 30400000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "ca41dea21a68b0b9d9e44f4df6ce127a7437fa1eef21a7c9e5b4a484aca7ee13": {
+  "confidence": 0.99,
+  "currency": "INR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_176",
+  "new_amount": 260000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "ca9c310cad6d397ad470aa74322e4a9dfc6776a1c3145adc5ded9d0c9d6be523": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_41",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "cad96ff1edc830ea3da5f1f43b77fcd1953f0876451db4ba8481b654c2240033": {
+  "confidence": 0.88,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_150",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_17401"
+ },
+ "cb1a6674674989bb26484cbfc151ed913a0f04dd8858b7e251f405b46149f74e": {
+  "confidence": 0.93,
+  "currency": "ZAR",
+  "effective_date": "2024-09-15",
+  "kind": "salary_change",
+  "message_id": "message_97",
+  "new_amount": 50160,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "cb93aa479a8a006eb34047a32bdfa89730b6ce1326c094cdc35737f538c8b69b": {
+  "confidence": 0.97,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_83",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "ce00014a4e4761c9bd2b8deab4fc9b6d088d24cfb367051383dcd855ce395650": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_167",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "cee5414cf1a4f1d3e1b5f79a6a1bbba88888f835f489d2f5afaf70e1be1d33bf": {
+  "confidence": 0.97,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_180",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
  "cfc0ee47b4d62b69780b5f2755f4ed5a3b82c3dfd63d3677176968d2df7a4d11": {
   "confidence": 0.99,
   "currency": "IDR",
@@ -176,6 +1756,396 @@
   "kind": "salary_change",
   "message_id": "message_01",
   "new_amount": 42750000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "cff6aae236ecb1e01b84f918982dcf0eeb26225047ef2e4f5555b0a0fa978713": {
+  "confidence": 0.98,
+  "currency": "USD",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_194",
+  "new_amount": 1548,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "d1eb8b42272dbbcbe8c2bb0194e764e28d20db8bc1cc3f828487beb42044d17f": {
+  "confidence": 0.96,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_138",
+  "new_amount": 1924.56,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "d52a087303d94c7f14f87eff260517b625b2f2b79da7ed8324ff2ee1e4c8b64c": {
+  "confidence": 0.94,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_96",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "d66ad3c451a333d0904c1393a6a525b33ee28085de0ff42ba6142164807dac6e": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "dispute",
+  "message_id": "message_197",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_23203"
+ },
+ "d8aa795da4a94c3e000312d2b3e872b7c45164c51a41fa7b1dd33c41096b15d4": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_20",
+  "new_amount": 1452,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "d90bbc4d18ed08e9ed03c6e3cc6c05d54939e82ebadb2dfa81c38de57e1d070e": {
+  "confidence": 0.95,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_136",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "d9cf4493e26a8aa6da7de698f54f1435747da18d0af02ca227dfc1e8a47ffbe0": {
+  "confidence": 0.98,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_27",
+  "new_amount": 21090000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "db65b33b6c5cf42b8aee8ba18b664e56e45be30d98c44b72ea1393bb36b8eae4": {
+  "confidence": 0.96,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_153",
+  "new_amount": 1750.32,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "dc5beef096e34b3ade7774c3bf6414bdf93600cbcd3f91652379788c113a9a19": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_21",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "dc6a5ee0aeee95b7b3fd45584eff6af3e1216f524cf4a6c4feb69697b368eec5": {
+  "confidence": 0.78,
+  "currency": null,
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_117",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_14026"
+ },
+ "ddff4639c19af9f9424d44715c79e76f3ce18217b2299886d57a04462bf28e1e": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_34",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "de9261851ab08e3b4ba59421432030d443a9a4bc2c7ba7441cb3416d8f4324fc": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_92",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_11129"
+ },
+ "df7d0a6424d7b135e9d7a85d9e445548900995ce2a1c47aa58f5dfd75fa470fd": {
+  "confidence": 0.99,
+  "currency": "INR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_211",
+  "new_amount": 103000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "dfccb29125c0848dac71451143666960a3095cde026a3570fbdfa6fc889b2d27": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_39",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_4994"
+ },
+ "e27e47a144abd16fc52f4414c734b67a85a289b71897f6d50c18a6cba32b320a": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "refund_status",
+  "message_id": "message_172",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_20379"
+ },
+ "e299873429c01a4c924b27dde30e218693b5aa4bf809afff699735b5394b8815": {
+  "confidence": 0.96,
+  "currency": "EUR",
+  "effective_date": "2026-04-15",
+  "kind": "salary_change",
+  "message_id": "message_113",
+  "new_amount": 1529,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "e4c457ac7619064087da99a96b1e4a4f1fb5b28b4dd1d4ed1c222168db67d19f": {
+  "confidence": 0.93,
+  "currency": "EUR",
+  "effective_date": "2026-01-15",
+  "kind": "salary_change",
+  "message_id": "message_162",
+  "new_amount": 2024,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "e9a1e4e9ace3193342c52570fed9132a3c329d2ed9dd84b813baabdb683e9c98": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "dispute",
+  "message_id": "message_164",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_19334"
+ },
+ "eb5556177696886c9fa88190ba6223cff4a3f493dc04f816ebfc171ba7fbe31f": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": "2025-02-15",
+  "kind": "salary_change",
+  "message_id": "message_32",
+  "new_amount": 115000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "eb6a507d52449a3e9eaa47bb53d94bcf877ada18b65e8045e87758c114370e88": {
+  "confidence": 0.91,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_122",
+  "new_amount": 23940000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "eb88e8e8fa29ffbfa03a7e9e265f5e5042543f8ae228999cd3a21f6a1a1b2ee2": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "expense_change",
+  "message_id": "message_105",
+  "new_amount": null,
+  "pct_change": 12,
+  "related_event_id": null
+ },
+ "ec0598be0bbd875693d009154884e0867f2e62551bdeb04fb9d7ed8867df5919": {
+  "confidence": 0.9,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_68",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "f22318d6add3f3db737f2630becdd304e9e581b7065f254eae4e364e0aff8f9b": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_132",
+  "new_amount": 137150,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "f31833405e68308e24fb5aa3254c30d4d11958171c6f7812cfa066e79a4942d6": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_142",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "f3c386d19d15e4460bdb00bf6c1fe1329adec65309decbadb1fc5bca784d8bc4": {
+  "confidence": 0.96,
+  "currency": "INR",
+  "effective_date": "2025-05-15",
+  "kind": "salary_change",
+  "message_id": "message_63",
+  "new_amount": 62000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "f4fbdbbc351c8b1630b36be1fcfd35e7e3c6b9ad7354c00c60694bf8713c071b": {
+  "confidence": 0.96,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_36",
+  "new_amount": 31464000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "f5450c8573bd833794b523c6217c9d8ab2feffbe01c7a160a89e6ea12159b3b6": {
+  "confidence": 0.94,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_90",
+  "new_amount": 759,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "f671d38324a2dfea423a4c769cf92608d76451c90cf124f27f87eef0ea526551": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": "2026-07-15",
+  "kind": "salary_change",
+  "message_id": "message_143",
+  "new_amount": 59000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "f6d9edee1a30688b377dd917a620ce4a2d766cb4e9b68ea1554dfa32d2f41799": {
+  "confidence": 0.98,
+  "currency": "EUR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_193",
+  "new_amount": 1528.56,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "f7ce89c11032cdd9173f479820616b13b932b5b46bfac342f88289522782003e": {
+  "confidence": 0.98,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_163",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_19182"
+ },
+ "f88a1bdaa7f499ac6ab53cbf3992247f680ac45308f2ac95c20461ed11715737": {
+  "confidence": 0.94,
+  "currency": "IDR",
+  "effective_date": "2025-11-15",
+  "kind": "salary_change",
+  "message_id": "message_125",
+  "new_amount": 26790000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "fa20009a0fd2e554cf8ff4397e4977a7de75c42bdb31949adf903def751f1d94": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_160",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "fab731ba1bae744b7da478fa40ed889baaa8d9bdcab932215d7d1dd082296085": {
+  "confidence": 0.99,
+  "currency": null,
+  "effective_date": null,
+  "kind": "ignore",
+  "message_id": "message_159",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "fc607b68a43b18358c0a2c671f0a9f22403a0e87cb5896602815e5547198d715": {
+  "confidence": 0.93,
+  "currency": "USD",
+  "effective_date": "2026-09-15",
+  "kind": "salary_change",
+  "message_id": "message_86",
+  "new_amount": 1296,
+  "pct_change": null,
+  "related_event_id": "event_10521"
+ },
+ "fccaa390559b97dba5ab963f557c5c3f927122277e70a73cc1bca59adf39345b": {
+  "confidence": 0.97,
+  "currency": null,
+  "effective_date": null,
+  "kind": "salary_end",
+  "message_id": "message_30",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "fcce0e080b331d6abbca593f4420be807913a3b674271cfca2fc63831cdf0887": {
+  "confidence": 0.99,
+  "currency": "IDR",
+  "effective_date": null,
+  "kind": "salary_change",
+  "message_id": "message_127",
+  "new_amount": 30400000,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "fd8945f5bb118e9bfc33bbef4faf7b2e33b2b905b418aa39c2cbb4989411e7b2": {
+  "confidence": 0.99,
+  "currency": "ZAR",
+  "effective_date": "2025-02-15",
+  "kind": "salary_change",
+  "message_id": "message_107",
+  "new_amount": 31900,
+  "pct_change": null,
+  "related_event_id": null
+ },
+ "fde549537516b5d68854f202b12618a9dd5b40d5d38c323df6f82418e20e113d": {
+  "confidence": 0.93,
+  "currency": null,
+  "effective_date": null,
+  "kind": "no_op",
+  "message_id": "message_201",
+  "new_amount": null,
+  "pct_change": null,
+  "related_event_id": "event_23855"
+ },
+ "ff99177e284191738211e8bfb5e446eb2c6c22a3a30392e9f6aad25231ddb233": {
+  "confidence": 0.98,
+  "currency": "INR",
+  "effective_date": "2024-06-15",
+  "kind": "salary_change",
+  "message_id": "message_38",
+  "new_amount": 69000,
   "pct_change": null,
   "related_event_id": null
  }
