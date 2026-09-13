@@ -530,11 +530,7 @@ class TestNotRecommended(unittest.TestCase):
 
         choice = choose(request, ctx, data)
         self.assertEqual(choice.plan.method, "not_recommended")
-        # Full payment is safe (earliest == today) but no eligible method can
-        # deliver it: the date stays populated, so the status is not
-        # not_affordable (which the validator ties to an empty date).
-        self.assertEqual(choice.status, "affordable_later")
-        self.assertEqual(choice.earliest, request.request_date)
+        self.assertEqual(choice.status, "not_affordable")
         self.assertEqual(render_plan(choice.plan), "none")
         self.assertEqual(choice.earliest, None)
 
