@@ -238,9 +238,13 @@ def _rank_key(plan: CandidatePlan, deadline: date) -> tuple:
     )
 
 
-def _status_for(plan: CandidatePlan) -> AffordabilityStatus:
+def _status_for(plan: CandidatePlan, earliest: date | None) -> AffordabilityStatus:
     if plan.method == "not_recommended":
-        return "not_affordable"
+        # A full payment that becomes safe later but that no eligible method
+        # can deliver (the user rejects full_payment, no option fits) is still
+        # "expected to become safe later"; only a missing date is not_affordable,
+        # which is also what keeps earliest_date_for_full_payment populated.
+        return "not_affordable" if earliest is None else "affordable_later"
     if plan.method == "wait":
         return "affordable_later"
     if plan.method == "full_payment" and not plan.spending_changes:
@@ -371,7 +375,7 @@ def choose(request: RequestRecord, ctx: ForecastContext, data: Dataset) -> Choic
     else:
         chosen = _NOT_RECOMMENDED
 
-    status = _status_for(chosen)
+    status = _status_for(chosen, earliest)
     return Choice(plan=chosen, status=status, amount_safe_to_pay=safe_q, earliest=earliest)
 
 
