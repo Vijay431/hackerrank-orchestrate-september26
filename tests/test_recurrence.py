@@ -355,6 +355,10 @@ class SameDayMergeTests(unittest.TestCase):
         self.assertIsNotNone(s)
         self.assertEqual(s.cadence_days, CADENCE_MONTHLY)
         self.assertEqual(len(s.event_ids), 4)
+        # Same-day members are summed into one occurrence amount, so the
+        # series is fixed at 150 rather than variable over [100, 50, 150, 150].
+        self.assertTrue(s.is_fixed)
+        self.assertEqual(s.amount, Decimal("150"))
         # Representative of the merged day is the last member by event_id.
         self.assertEqual(s.anchor, date(2024, 3, 1))
 

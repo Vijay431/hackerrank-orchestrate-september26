@@ -105,6 +105,7 @@ class _Occurrence:
 
     when: date
     representative: Event
+    amount: Decimal  # sum of the same-day members
 
 
 def _merge_same_day(events: Sequence[Event]) -> tuple[_Occurrence, ...]:
@@ -125,7 +126,10 @@ def _merge_same_day(events: Sequence[Event]) -> tuple[_Occurrence, ...]:
         while j < n and events[j].settlement_date == when:
             j += 1
         representative = events[j - 1]
-        occurrences.append(_Occurrence(when=when, representative=representative))
+        total = sum((e.amount for e in events[i:j] if e.amount is not None), Decimal(0))
+        occurrences.append(
+            _Occurrence(when=when, representative=representative, amount=total)
+        )
         i = j
     return tuple(occurrences)
 
@@ -179,7 +183,7 @@ def _series_from_members(
     representative = last_occurrence.representative
     # `amount is None` events were filtered out by the caller, so every
     # member here has a concrete Decimal amount.
-    amounts = [e.amount for e in ordered if e.amount is not None]
+    amounts = [o.amount for o in occurrences]
     is_fixed = all(a == amounts[0] for a in amounts)
 
     if direction == "credit":
@@ -188,10 +192,12 @@ def _series_from_members(
         # income) is not confirmed income. A scheduled row may carry a new
         # amount -- that is a confirmed raise, so it is excluded from the
         # stability check but wins as the projected amount.
-        settled_amounts = [e.amount for e in ordered if e.status == "settled" and e.amount is not None]
+        settled_amounts = [
+            o.amount for o in occurrences if o.representative.status == "settled"
+        ]
         if settled_amounts and not _income_confirmed(settled_amounts):
             return None
-        amount = ordered[-1].amount
+        amount = occurrences[-1].amount
     elif is_fixed:
         amount = amounts[0]
     else:
