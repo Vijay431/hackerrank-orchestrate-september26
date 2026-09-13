@@ -62,11 +62,11 @@ def write_rows(decisions: Sequence[Decision], output_path: str) -> int:
 
         # Atomic replace
         os.replace(temp_path, output_path)
-    except:
+    except BaseException:
         # Clean up temp file on error
         try:
             os.unlink(temp_path)
-        except:
+        except OSError:
             pass
         raise
 
@@ -148,11 +148,11 @@ def fill_template(
 
         # Atomic replace
         os.replace(temp_path, output_path)
-    except:
+    except BaseException:
         # Clean up temp file on error
         try:
             os.unlink(temp_path)
-        except:
+        except OSError:
             pass
         raise
 

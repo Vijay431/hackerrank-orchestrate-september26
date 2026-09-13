@@ -111,7 +111,7 @@ def explain(
             if event_id in descriptions:
                 desc = descriptions[event_id].lower()
             else:
-                desc = f"the {event_id} expense"
+                desc = f"{event_id} expense"
 
             if change.action == "stop":
                 changes_desc.append(f"stop the {desc}")
